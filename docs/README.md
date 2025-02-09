@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /.vuepress/public/images/NV.jpg
+heroImage: /images/NV.jpg
 heroText: Take Notes
 tagline: Just Do It
 actions: 

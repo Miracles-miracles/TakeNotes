@@ -9,7 +9,7 @@ export default defineUserConfig({
 
   theme:defaultTheme({
     
-    logo: '/.vuepress/public/images/NV.jpg',
+    logo: '/images/NV.jpg',
 
     navbar: [
         {text: '首页', link: '/'},
