@@ -5,8 +5,15 @@ heroText: Take Notes
 tagline: Just Do It
 actions: 
   - text: 开始吧
-    link: /README.md
+    link: /about/
     type: primary
+  - text: 看看Java
+    link: /javaLearning/
+    type: secondary
+  - text: 看看Linux
+    link: /linuxLearning/
+    type: secondary
+
 features:
   - title: 简洁至上
     details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。

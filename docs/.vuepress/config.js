@@ -13,8 +13,38 @@ export default defineUserConfig({
 
     navbar: [
         {text: '首页', link: '/'},
-        {text: '学习Linux', link: '/linuxLearning/'},
+
+        {
+          text: '学习Linux', 
+          link: '/linuxLearning/',
+          children: [
+            {
+              text: '初识Linux',
+              link: '/linuxLearning/',
+            }
+          ]
+        },
+
         {text: '学习Java', link: '/javaLearning/'},
-    ]
+        {text: '关于', link: '/about/'}
+    ],
+
+    sidebar: {
+      '/linuxLearning/': [
+        {
+          text: 'Linux命令',
+          link: '/linuxLearning/',
+          collapsible: true,
+          children: [
+            {
+              text: 'ls命令',
+              link: 'ls-Command.md'
+            }
+          ]
+        }
+      ]
+    }
+
+
   })
 })
