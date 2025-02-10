@@ -1,0 +1,3 @@
+import comp from "D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/linuxLearning/FirstMeetLinux/grep-wc-Command.html.vue"
+const data = JSON.parse("{\"path\":\"/linuxLearning/FirstMeetLinux/grep-wc-Command.html\",\"title\":\"grep、wc与管道符\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"grep命令\",\"slug\":\"grep命令\",\"link\":\"#grep命令\",\"children\":[]},{\"level\":2,\"title\":\"wc命令\",\"slug\":\"wc命令\",\"link\":\"#wc命令\",\"children\":[]},{\"level\":2,\"title\":\"管道符\",\"slug\":\"管道符\",\"link\":\"#管道符\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"linuxLearning/FirstMeetLinux/grep-wc-Command.md\"}")
+export { comp, data }
