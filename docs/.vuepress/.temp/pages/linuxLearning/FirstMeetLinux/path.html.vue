@@ -1,4 +1,4 @@
-<template><div><h1 id="相对路径和绝对路径" tabindex="-1"><a class="header-anchor" href="#相对路径和绝对路径"><span>相对路径和绝对路径</span></a></h1>
+<template><div><h2 id="相对路径和绝对路径" tabindex="-1"><a class="header-anchor" href="#相对路径和绝对路径"><span>相对路径和绝对路径</span></a></h2>
 <ul>
 <li>绝对路径：以根目录为起点，路径描述以<code v-pre>/</code>开头。</li>
 </ul>
@@ -17,7 +17,7 @@
 <span class="line">/home/miracles/Desktop</span>
 <span class="line"></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><br>
-<h1 id="特殊路径符" tabindex="-1"><a class="header-anchor" href="#特殊路径符"><span>特殊路径符</span></a></h1>
+<h2 id="特殊路径符" tabindex="-1"><a class="header-anchor" href="#特殊路径符"><span>特殊路径符</span></a></h2>
 <ul>
 <li><code v-pre>.</code>：表示当前目录。如<code v-pre>cd ./Desktop</code>表示切换到当前目录下的Desktop目录内，和<code v-pre>cd Desktop</code>效果一致。</li>
 </ul>

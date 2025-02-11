@@ -1,0 +1,3 @@
+import comp from "D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/linuxLearning/FirstMeetLinux/echo-tail-Command.html.vue"
+const data = JSON.parse("{\"path\":\"/linuxLearning/FirstMeetLinux/echo-tail-Command.html\",\"title\":\"echo、tail与重定向符\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"echo命令\",\"slug\":\"echo命令\",\"link\":\"#echo命令\",\"children\":[]},{\"level\":2,\"title\":\"tail命令\",\"slug\":\"tail命令\",\"link\":\"#tail命令\",\"children\":[]},{\"level\":2,\"title\":\"重定向符：>和>>\",\"slug\":\"重定向符-和\",\"link\":\"#重定向符-和\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"linuxLearning/FirstMeetLinux/echo-tail-Command.md\"}")
+export { comp, data }

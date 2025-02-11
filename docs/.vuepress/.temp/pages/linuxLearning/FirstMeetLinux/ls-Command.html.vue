@@ -1,4 +1,4 @@
-<template><div><h1 id="ls命令" tabindex="-1"><a class="header-anchor" href="#ls命令"><span>ls命令</span></a></h1>
+<template><div><h2 id="ls命令" tabindex="-1"><a class="header-anchor" href="#ls命令"><span>ls命令</span></a></h2>
 <p>ls命令的作用是列出目录下的内容，相当于你双击打开文件夹后看到了其中的内容。其语法细节如下：<br>
 <code v-pre>ls [-a -l -h] [Linux路径]</code></p>
 <ul>

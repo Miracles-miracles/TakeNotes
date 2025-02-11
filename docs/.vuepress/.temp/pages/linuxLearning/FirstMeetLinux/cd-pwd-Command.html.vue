@@ -1,4 +1,4 @@
-<template><div><h1 id="cd命令" tabindex="-1"><a class="header-anchor" href="#cd命令"><span>cd命令</span></a></h1>
+<template><div><h2 id="cd命令" tabindex="-1"><a class="header-anchor" href="#cd命令"><span>cd命令</span></a></h2>
 <p>cd命令用于切换工作目录，命令来源自英文<strong>Change Directory</strong>，该命令语法如下：<br>
 <code v-pre>cd [Linux路径]</code></p>
 <ul>
@@ -15,7 +15,7 @@
 <span class="line">Documents  Music      Public    Videos</span>
 <span class="line"></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><br>
-<h1 id="pwd命令" tabindex="-1"><a class="header-anchor" href="#pwd命令"><span>pwd命令</span></a></h1>
+<h2 id="pwd命令" tabindex="-1"><a class="header-anchor" href="#pwd命令"><span>pwd命令</span></a></h2>
 <p>pwd命令用于查看当前目录，命令来自<strong>Print Work Directory</strong>，该命令语法如下：<br>
 <code v-pre>pwd</code></p>
 <ul>

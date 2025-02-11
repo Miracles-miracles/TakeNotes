@@ -43,8 +43,28 @@ export default defineUserConfig({
             {text: 'mkdir:创建目录(文件夹)', link: '/linuxLearning/FirstMeetLinux/mkdir-Command.md'},
             {text: '文件操作', link: '/linuxLearning/FirstMeetLinux/FileOperated-Command.md'},
             {text: 'which-find:查找', link: '/linuxLearning/FirstMeetLinux/which-find-Command.md'},
-            {text: 'grep-wc:筛选于与统计', link: '/linuxLearning/FirstMeetLinux/grep-wc-Command.md'}
+            {text: 'grep-wc:筛选于与统计', link: '/linuxLearning/FirstMeetLinux/grep-wc-Command.md'},
+            {text: 'echo-tail:输出与跟踪', link: '/linuxLearning/FirstMeetLinux/echo-tail-Command.md'},
+            {text: 'vim:编辑器', link: '/linuxLearning/FirstMeetLinux/vim-Command.md'}
           ]
+        },
+
+        {
+          text: 'Linux用户及权限',
+          link: '/linuxLearning/FirstMeetLinux/Users-Permissions.md',
+          collapsible: true,
+          children: [
+            {text: '认识root用户', link: '/linuxLearning/FirstMeetLinux/root.md'},
+            {text: '用户、用户组管理', link: '/linuxLearning/FirstMeetLinux/user-usergroup.md'},
+            {text: '权限信息', link: '/linuxLearning/FirstMeetLinux/right.md'},
+            {text: 'chmod-chown:修改权限与所属', link: '/linuxLearning/FirstMeetLinux/chmod-chown-Command.md'}
+          ]
+        },
+
+        {
+          text: 'Linux使用操作', 
+          link: '/linuxLearning/FirstMeetLinux/skill.md',
+          collapsible: true,
         }
       ]
     }

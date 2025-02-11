@@ -1,0 +1,3 @@
+import comp from "D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/linuxLearning/FirstMeetLinux/root.html.vue"
+const data = JSON.parse("{\"path\":\"/linuxLearning/FirstMeetLinux/root.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"su命令\",\"slug\":\"su命令\",\"link\":\"#su命令\",\"children\":[]},{\"level\":2,\"title\":\"sudo命令\",\"slug\":\"sudo命令\",\"link\":\"#sudo命令\",\"children\":[{\"level\":3,\"title\":\"为普通用户配置sudo认证\",\"slug\":\"为普通用户配置sudo认证\",\"link\":\"#为普通用户配置sudo认证\",\"children\":[]}]}],\"git\":{},\"filePathRelative\":\"linuxLearning/FirstMeetLinux/root.md\"}")
+export { comp, data }

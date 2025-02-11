@@ -1,4 +1,4 @@
-# cd命令
+## cd命令
 cd命令用于切换工作目录，命令来源自英文**Change Directory**，该命令语法如下：  
 `cd [Linux路径]`
 - cd命令无需选项，只有参数，表示要切换到哪个目录。
@@ -15,7 +15,7 @@ Documents  Music      Public    Videos
 ```
 <br>
 
-# pwd命令
+## pwd命令
 pwd命令用于查看当前目录，命令来自**Print Work Directory**，该命令语法如下：  
 `pwd`
 - pwd命令无选项、无参数，直接输入pwd即可。

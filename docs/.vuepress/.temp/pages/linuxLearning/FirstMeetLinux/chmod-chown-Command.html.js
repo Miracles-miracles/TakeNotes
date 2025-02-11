@@ -1,0 +1,3 @@
+import comp from "D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/linuxLearning/FirstMeetLinux/chmod-chown-Command.html.vue"
+const data = JSON.parse("{\"path\":\"/linuxLearning/FirstMeetLinux/chmod-chown-Command.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"chmod命令\",\"slug\":\"chmod命令\",\"link\":\"#chmod命令\",\"children\":[{\"level\":3,\"title\":\"权限的数字序号\",\"slug\":\"权限的数字序号\",\"link\":\"#权限的数字序号\",\"children\":[]}]},{\"level\":2,\"title\":\"chown命令\",\"slug\":\"chown命令\",\"link\":\"#chown命令\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"linuxLearning/FirstMeetLinux/chmod-chown-Command.md\"}")
+export { comp, data }

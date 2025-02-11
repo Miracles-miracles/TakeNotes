@@ -1,4 +1,4 @@
-# 相对路径和绝对路径
+## 相对路径和绝对路径
 - 绝对路径：以根目录为起点，路径描述以`/`开头。
 ```
 [miracles@192 /]$ cd /home/miracles/Desktop
@@ -16,7 +16,7 @@ Documents  Music      Public    Videos
 ```
 <br>
 
-# 特殊路径符
+## 特殊路径符
 - `.`：表示当前目录。如`cd ./Desktop`表示切换到当前目录下的Desktop目录内，和`cd Desktop`效果一致。
 ```
 [miracles@192 ~]$ cd ./Desktop
