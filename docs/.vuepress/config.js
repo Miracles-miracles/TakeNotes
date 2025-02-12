@@ -1,11 +1,20 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   bundler: viteBundler(),
   title: 'TakeNotes',
   base: '/TakeNotes/',
+
+  plugins: [
+    searchPlugin({
+      locales: {'/': {placeholder: '搜索'}},
+      maxSuggestions: 10,
+      isSearchable: (page) => page.path !== '/',
+    }),
+  ],
 
   theme:defaultTheme({
     
@@ -65,6 +74,13 @@ export default defineUserConfig({
           text: 'Linux使用操作', 
           link: '/linuxLearning/FirstMeetLinux/skill.md',
           collapsible: true,
+          children: [
+            {text: '小技巧', link: '/linuxLearning/FirstMeetLinux/tips.md'},
+            {text: '软件安装', link: '/linuxLearning/FirstMeetLinux/install.md'},
+            {text: 'systemctl命令', link: '/linuxLearning/FirstMeetLinux/systemctl-Command.md'},
+            {text: '软链接', link: '/linuxLearning/FirstMeetLinux/softlink.md'},
+            {text: '日期和时区', link: '/linuxLearning/FirstMeetLinux/date.md'}
+          ]
         }
       ]
     }

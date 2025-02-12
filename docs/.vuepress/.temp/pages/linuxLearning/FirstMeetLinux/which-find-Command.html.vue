@@ -1,4 +1,4 @@
-<template><div><h1 id="查找命令" tabindex="-1"><a class="header-anchor" href="#查找命令"><span>查找命令</span></a></h1>
+<template><div><h1 id="whcih-find查找命令" tabindex="-1"><a class="header-anchor" href="#whcih-find查找命令"><span>whcih-find查找命令</span></a></h1>
 <h2 id="which命令" tabindex="-1"><a class="header-anchor" href="#which命令"><span>which命令</span></a></h2>
 <p>Linux的命令实际上就是二进制的可执行程序，这个跟Windows的<code v-pre>.exe</code>文件是一个意思。
 which命令就是用来查看一系列命令的程序文件在哪里，它的语法如下：<br>

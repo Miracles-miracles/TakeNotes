@@ -1,4 +1,5 @@
-<template><div><h1 id="mkdir命令" tabindex="-1"><a class="header-anchor" href="#mkdir命令"><span>mkdir命令</span></a></h1>
+<template><div><h1 id="mkdir-创建目录-文件夹" tabindex="-1"><a class="header-anchor" href="#mkdir-创建目录-文件夹"><span>mkdir:创建目录(文件夹)</span></a></h1>
+<h2 id="mkdir命令" tabindex="-1"><a class="header-anchor" href="#mkdir命令"><span>mkdir命令</span></a></h2>
 <p>mkdir命令可以创建新的目录（文件夹），命令来自<strong>Make Directory</strong>，该命令语法如下：
 <code v-pre>mkdir [-p] Linux路径</code></p>
 <ul>

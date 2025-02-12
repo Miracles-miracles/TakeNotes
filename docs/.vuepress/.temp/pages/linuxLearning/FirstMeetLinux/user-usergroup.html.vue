@@ -1,4 +1,5 @@
-<template><div><h2 id="用户管理" tabindex="-1"><a class="header-anchor" href="#用户管理"><span>用户管理</span></a></h2>
+<template><div><h1 id="用户、用户组管理" tabindex="-1"><a class="header-anchor" href="#用户、用户组管理"><span>用户、用户组管理</span></a></h1>
+<h2 id="用户管理" tabindex="-1"><a class="header-anchor" href="#用户管理"><span>用户管理</span></a></h2>
 <p><strong>创建、删除、查看组、修改组都需要root</strong></p>
 <h3 id="创建用户" tabindex="-1"><a class="header-anchor" href="#创建用户"><span>创建用户</span></a></h3>
 <ul>

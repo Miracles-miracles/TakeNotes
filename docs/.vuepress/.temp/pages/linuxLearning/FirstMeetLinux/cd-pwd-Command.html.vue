@@ -1,4 +1,5 @@
-<template><div><h2 id="cd命令" tabindex="-1"><a class="header-anchor" href="#cd命令"><span>cd命令</span></a></h2>
+<template><div><h1 id="cd-pwd-目录切换" tabindex="-1"><a class="header-anchor" href="#cd-pwd-目录切换"><span>cd-pwd:目录切换</span></a></h1>
+<h2 id="cd命令" tabindex="-1"><a class="header-anchor" href="#cd命令"><span>cd命令</span></a></h2>
 <p>cd命令用于切换工作目录，命令来源自英文<strong>Change Directory</strong>，该命令语法如下：<br>
 <code v-pre>cd [Linux路径]</code></p>
 <ul>

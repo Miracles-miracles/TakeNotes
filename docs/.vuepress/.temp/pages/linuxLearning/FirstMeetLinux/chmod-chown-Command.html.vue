@@ -1,4 +1,5 @@
-<template><div><h2 id="chmod命令" tabindex="-1"><a class="header-anchor" href="#chmod命令"><span>chmod命令</span></a></h2>
+<template><div><h1 id="chmod-chown-修改权限与所属" tabindex="-1"><a class="header-anchor" href="#chmod-chown-修改权限与所属"><span>chmod-chown:修改权限与所属</span></a></h1>
+<h2 id="chmod命令" tabindex="-1"><a class="header-anchor" href="#chmod命令"><span>chmod命令</span></a></h2>
 <p>chmod命令可以修改文件、文件夹的权限信息，<strong>不过，只有文件、文件夹的所属用户或root用户可以修改</strong>。语法如下：<br>
 <code v-pre>chmod [-R] 权限 文件或文件夹</code></p>
 <ul>

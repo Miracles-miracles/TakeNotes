@@ -1,4 +1,5 @@
-<template><div><h2 id="su命令" tabindex="-1"><a class="header-anchor" href="#su命令"><span>su命令</span></a></h2>
+<template><div><h1 id="认识root用户" tabindex="-1"><a class="header-anchor" href="#认识root用户"><span>认识root用户</span></a></h1>
+<h2 id="su命令" tabindex="-1"><a class="header-anchor" href="#su命令"><span>su命令</span></a></h2>
 <p>使用<code v-pre>su - root</code>可以切换到<code v-pre>root</code>用户，那是因为<code v-pre>su</code>命令就是用于账户切换的命令，其来源于<strong>Switch User</strong>，语法如下：<br>
 <code v-pre>su [-] [用户名]</code></p>
 <ul>

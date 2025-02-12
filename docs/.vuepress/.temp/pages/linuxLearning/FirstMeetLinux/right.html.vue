@@ -1,4 +1,5 @@
-<template><div><h2 id="认知权限信息" tabindex="-1"><a class="header-anchor" href="#认知权限信息"><span>认知权限信息</span></a></h2>
+<template><div><h1 id="权限信息" tabindex="-1"><a class="header-anchor" href="#权限信息"><span>权限信息</span></a></h1>
+<h2 id="认知权限信息" tabindex="-1"><a class="header-anchor" href="#认知权限信息"><span>认知权限信息</span></a></h2>
 <div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre v-pre><code><span class="line">[miracles@192 ~]$ ls -l</span>
 <span class="line">total 4</span>
 <span class="line">drwxr-xr-x. 2 miracles miracles  6 Jan 24 16:37 Desktop</span>

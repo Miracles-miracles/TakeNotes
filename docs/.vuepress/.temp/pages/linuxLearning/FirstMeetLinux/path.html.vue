@@ -1,4 +1,5 @@
-<template><div><h2 id="相对路径和绝对路径" tabindex="-1"><a class="header-anchor" href="#相对路径和绝对路径"><span>相对路径和绝对路径</span></a></h2>
+<template><div><h1 id="路径" tabindex="-1"><a class="header-anchor" href="#路径"><span>路径</span></a></h1>
+<h2 id="相对路径和绝对路径" tabindex="-1"><a class="header-anchor" href="#相对路径和绝对路径"><span>相对路径和绝对路径</span></a></h2>
 <ul>
 <li>绝对路径：以根目录为起点，路径描述以<code v-pre>/</code>开头。</li>
 </ul>

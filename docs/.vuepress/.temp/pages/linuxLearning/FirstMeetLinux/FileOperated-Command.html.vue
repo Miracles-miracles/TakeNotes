@@ -1,4 +1,5 @@
-<template><div><h2 id="touch命令" tabindex="-1"><a class="header-anchor" href="#touch命令"><span>touch命令</span></a></h2>
+<template><div><h1 id="文件操作" tabindex="-1"><a class="header-anchor" href="#文件操作"><span>文件操作</span></a></h1>
+<h2 id="touch命令" tabindex="-1"><a class="header-anchor" href="#touch命令"><span>touch命令</span></a></h2>
 <p>touch命令用于创建<strong>文件</strong>而不是<strong>文件夹（目录）</strong>，该命令语法如下：<br>
 <code v-pre>touch Linux路径</code></p>
 <ul>

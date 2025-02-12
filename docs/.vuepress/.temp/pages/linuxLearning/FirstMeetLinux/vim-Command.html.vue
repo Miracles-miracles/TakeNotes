@@ -1,4 +1,5 @@
-<template><div><h2 id="vim的三种工作模式" tabindex="-1"><a class="header-anchor" href="#vim的三种工作模式"><span>vim的三种工作模式</span></a></h2>
+<template><div><h1 id="vim编辑器" tabindex="-1"><a class="header-anchor" href="#vim编辑器"><span>vim编辑器</span></a></h1>
+<h2 id="vim的三种工作模式" tabindex="-1"><a class="header-anchor" href="#vim的三种工作模式"><span>vim的三种工作模式</span></a></h2>
 <ul>
 <li>命令模式(Command mode)：在该模式下，所有按键都被理解为命令，以命令驱动执行不同的功能，这时不能自由进行文本编辑。</li>
 <li>输入模式(Insert mode)：在该模式下，可以对文件内容进行自由编辑。</li>
