@@ -74,6 +74,28 @@ export const SEARCH_INDEX = [
         "slug": "date命令",
         "link": "#date命令",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "修改时区",
+        "slug": "修改时区",
+        "link": "#修改时区",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "自动校准时间",
+        "slug": "自动校准时间",
+        "link": "#自动校准时间",
+        "children": [
+          {
+            "level": 3,
+            "title": "ntp程序",
+            "slug": "ntp程序",
+            "link": "#ntp程序",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/linuxLearning/FirstMeetLinux/date.html",
@@ -218,6 +240,65 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "ip地址与主机名",
+    "headers": [
+      {
+        "level": 2,
+        "title": "ip地址",
+        "slug": "ip地址",
+        "link": "#ip地址",
+        "children": [
+          {
+            "level": 3,
+            "title": "ifconfig:查看本机ip",
+            "slug": "ifconfig-查看本机ip",
+            "link": "#ifconfig-查看本机ip",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "特殊ip",
+            "slug": "特殊ip",
+            "link": "#特殊ip",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "固定ip",
+            "slug": "固定ip",
+            "link": "#固定ip",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "主机名",
+        "slug": "主机名",
+        "link": "#主机名",
+        "children": [
+          {
+            "level": 3,
+            "title": "修改主机名",
+            "slug": "修改主机名",
+            "link": "#修改主机名",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "域名解析",
+            "slug": "域名解析",
+            "link": "#域名解析",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/linuxLearning/FirstMeetLinux/ip-hostname.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "ls:列出目录内容",
     "headers": [
       {
@@ -280,6 +361,79 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/linuxLearning/FirstMeetLinux/path.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "网络请求与下载",
+    "headers": [
+      {
+        "level": 2,
+        "title": "ping命令",
+        "slug": "ping命令",
+        "link": "#ping命令",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "wget命令",
+        "slug": "wget命令",
+        "link": "#wget命令",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "curl命令",
+        "slug": "curl命令",
+        "link": "#curl命令",
+        "children": []
+      }
+    ],
+    "path": "/linuxLearning/FirstMeetLinux/ping-wget-Command.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "端口",
+    "headers": [
+      {
+        "level": 2,
+        "title": "nmap命令:查看端口占用",
+        "slug": "nmap命令-查看端口占用",
+        "link": "#nmap命令-查看端口占用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "netstat命令:查看指定端口",
+        "slug": "netstat命令-查看指定端口",
+        "link": "#netstat命令-查看指定端口",
+        "children": []
+      }
+    ],
+    "path": "/linuxLearning/FirstMeetLinux/port.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "进程管理",
+    "headers": [
+      {
+        "level": 2,
+        "title": "ps命令:查看进程",
+        "slug": "ps命令-查看进程",
+        "link": "#ps命令-查看进程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "kill命令:关闭进程",
+        "slug": "kill命令-关闭进程",
+        "link": "#kill命令-关闭进程",
+        "children": []
+      }
+    ],
+    "path": "/linuxLearning/FirstMeetLinux/process.html",
     "pathLocale": "/",
     "extraFields": []
   },

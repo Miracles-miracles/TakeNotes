@@ -24,7 +24,7 @@
 </ul>
 <h3 id="为普通用户配置sudo认证" tabindex="-1"><a class="header-anchor" href="#为普通用户配置sudo认证"><span>为普通用户配置sudo认证</span></a></h3>
 <ul>
-<li>切换至root用户，执行<code v-pre>visudo</code>命令，这样系统会自动通过<code v-pre>vi</code>编辑器打开<code v-pre>/etc/sudoer</code>。</li>
+<li>切换至root用户，执行<code v-pre>visudo</code>命令，这样系统会自动通过<code v-pre>vi</code>编辑器打开<code v-pre>/etc/sudoers</code>。</li>
 <li>在文件的最后添加：<code v-pre>miracles ALL=(ALL)   NOPASSWD:ALL</code>。</li>
 </ul>
 <p><strong><code v-pre>miracles</code>是我自己的用户名，你应该写你自己的。</strong></p>

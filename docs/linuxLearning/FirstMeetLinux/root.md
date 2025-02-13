@@ -21,7 +21,7 @@ logout
 `sudo 其他命令`
 - 在其他命令之前带上`sudo`，即可为这条命令临时赋予root权限。
 ### 为普通用户配置sudo认证
-- 切换至root用户，执行`visudo`命令，这样系统会自动通过`vi`编辑器打开`/etc/sudoer`。
+- 切换至root用户，执行`visudo`命令，这样系统会自动通过`vi`编辑器打开`/etc/sudoers`。
 - 在文件的最后添加：`miracles ALL=(ALL)   NOPASSWD:ALL`。
 
 **`miracles`是我自己的用户名，你应该写你自己的。**

@@ -36,6 +36,7 @@ export default defineUserConfig({
 
         {text: '学习Java', link: '/javaLearning/'},
         {text: '关于', link: '/about/'},
+        {text: 'LeetCode', link: 'https://leetcode.cn/'},
         {text: 'GitHub', link: 'https://github.com/'}
     ],
 
@@ -79,7 +80,11 @@ export default defineUserConfig({
             {text: '软件安装', link: '/linuxLearning/FirstMeetLinux/install.md'},
             {text: 'systemctl命令', link: '/linuxLearning/FirstMeetLinux/systemctl-Command.md'},
             {text: '软链接', link: '/linuxLearning/FirstMeetLinux/softlink.md'},
-            {text: '日期和时区', link: '/linuxLearning/FirstMeetLinux/date.md'}
+            {text: '日期和时区', link: '/linuxLearning/FirstMeetLinux/date.md'},
+            {text: 'ip地址与主机名', link: '/linuxLearning/FirstMeetLinux/ip-hostname.md'},
+            {text: '网络请求与下载', link: '/linuxLearning/FirstMeetLinux/ping-wget-Command.md'},
+            {text: '端口', link: '/linuxLearning/FirstMeetLinux/port.md'},
+            {text: '进程管理', link: '/linuxLearning/FirstMeetLinux/process.md'}
           ]
         }
       ]

@@ -1,0 +1,3 @@
+import comp from "D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/linuxLearning/FirstMeetLinux/ping-wget-Command.html.vue"
+const data = JSON.parse("{\"path\":\"/linuxLearning/FirstMeetLinux/ping-wget-Command.html\",\"title\":\"网络请求与下载\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"ping命令\",\"slug\":\"ping命令\",\"link\":\"#ping命令\",\"children\":[]},{\"level\":2,\"title\":\"wget命令\",\"slug\":\"wget命令\",\"link\":\"#wget命令\",\"children\":[]},{\"level\":2,\"title\":\"curl命令\",\"slug\":\"curl命令\",\"link\":\"#curl命令\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"linuxLearning/FirstMeetLinux/ping-wget-Command.md\"}")
+export { comp, data }
