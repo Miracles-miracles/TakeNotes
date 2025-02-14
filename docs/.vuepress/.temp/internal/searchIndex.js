@@ -14,6 +14,20 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "二叉搜索树",
+    "headers": [],
+    "path": "/javaLearning/practice/BinarySearchTree.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "练习，的确需要练习。",
+    "headers": [],
+    "path": "/javaLearning/practice/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "cd-pwd:目录切换",
     "headers": [
       {
@@ -885,20 +899,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/linuxLearning/FirstMeetLinux/zip-unzip.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "二叉搜索树",
-    "headers": [],
-    "path": "/javaLearning/practice/BinarySearchTree.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "练习，的确需要练习。",
-    "headers": [],
-    "path": "/javaLearning/practice/",
     "pathLocale": "/",
     "extraFields": []
   },
