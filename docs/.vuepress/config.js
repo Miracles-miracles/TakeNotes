@@ -34,7 +34,17 @@ export default defineUserConfig({
           ]
         },
 
-        {text: '学习Java', link: '/javaLearning/'},
+        {
+          text: '学习Java', 
+          link: '/javaLearning/',
+          children: [
+            {
+              text: '练习',
+              link: '/javaLearning/practice/'
+            }
+          ]
+        },
+
         {text: '关于', link: '/about/'},
         {text: 'LeetCode', link: 'https://leetcode.cn/'},
         {text: 'GitHub', link: 'https://github.com/'}
@@ -84,12 +94,19 @@ export default defineUserConfig({
             {text: 'ip地址与主机名', link: '/linuxLearning/FirstMeetLinux/ip-hostname.md'},
             {text: '网络请求与下载', link: '/linuxLearning/FirstMeetLinux/ping-wget-Command.md'},
             {text: '端口', link: '/linuxLearning/FirstMeetLinux/port.md'},
-            {text: '进程管理', link: '/linuxLearning/FirstMeetLinux/process.md'}
+            {text: '进程管理', link: '/linuxLearning/FirstMeetLinux/process.md'},
+            {text: '主机状态', link: '/linuxLearning/FirstMeetLinux/hoststate.md'},
+            {text: '环境变量', link: '/linuxLearning/FirstMeetLinux/env-var.md'},
+            {text: '上传和下载', link: '/linuxLearning/FirstMeetLinux/upload-download.md'},
+            {text: '压缩与解压', link: '/linuxLearning/FirstMeetLinux/zip-unzip.md'}
           ]
         }
-      ]
-    }
+      ],
 
+      '/javaLearning/practice/': [
+        {text: '二叉搜索树', link: '/javaLearning/practice/BinarySearchTree.md'}
+      ]
+    },
 
   })
 })

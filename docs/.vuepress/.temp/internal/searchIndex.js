@@ -14,6 +14,20 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "二叉搜索树",
+    "headers": [],
+    "path": "/javaLearning/practice/BinarySearchTree.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "练习，的确需要练习。",
+    "headers": [],
+    "path": "/javaLearning/practice/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "cd-pwd:目录切换",
     "headers": [
       {
@@ -40,9 +54,9 @@ export const SEARCH_INDEX = [
     "headers": [
       {
         "level": 2,
-        "title": "chmod命令",
-        "slug": "chmod命令",
-        "link": "#chmod命令",
+        "title": "chmod命令:修改权限",
+        "slug": "chmod命令-修改权限",
+        "link": "#chmod命令-修改权限",
         "children": [
           {
             "level": 3,
@@ -55,9 +69,9 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "chown命令",
-        "slug": "chown命令",
-        "link": "#chown命令",
+        "title": "chown命令:修改所属",
+        "slug": "chown命令-修改所属",
+        "link": "#chown命令-修改所属",
         "children": []
       }
     ],
@@ -70,9 +84,9 @@ export const SEARCH_INDEX = [
     "headers": [
       {
         "level": 2,
-        "title": "date命令",
-        "slug": "date命令",
-        "link": "#date命令",
+        "title": "date命令:查看时间",
+        "slug": "date命令-查看时间",
+        "link": "#date命令-查看时间",
         "children": []
       },
       {
@@ -107,16 +121,16 @@ export const SEARCH_INDEX = [
     "headers": [
       {
         "level": 2,
-        "title": "echo命令",
-        "slug": "echo命令",
-        "link": "#echo命令",
+        "title": "echo命令:输出",
+        "slug": "echo命令-输出",
+        "link": "#echo命令-输出",
         "children": []
       },
       {
         "level": 2,
-        "title": "tail命令",
-        "slug": "tail命令",
-        "link": "#tail命令",
+        "title": "tail命令:跟踪",
+        "slug": "tail命令-跟踪",
+        "link": "#tail命令-跟踪",
         "children": []
       },
       {
@@ -132,48 +146,84 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "环境变量",
+    "headers": [
+      {
+        "level": 2,
+        "title": "env命令:查看环境变量",
+        "slug": "env命令-查看环境变量",
+        "link": "#env命令-查看环境变量",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "PATH",
+        "slug": "path",
+        "link": "#path",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "$符号",
+        "slug": "符号",
+        "link": "#符号",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "设置环境变量",
+        "slug": "设置环境变量",
+        "link": "#设置环境变量",
+        "children": []
+      }
+    ],
+    "path": "/linuxLearning/FirstMeetLinux/env-var.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "文件操作",
     "headers": [
       {
         "level": 2,
-        "title": "touch命令",
-        "slug": "touch命令",
-        "link": "#touch命令",
+        "title": "touch命令:创建文件",
+        "slug": "touch命令-创建文件",
+        "link": "#touch命令-创建文件",
         "children": []
       },
       {
         "level": 2,
-        "title": "cat命令",
-        "slug": "cat命令",
-        "link": "#cat命令",
+        "title": "cat命令:查看文件",
+        "slug": "cat命令-查看文件",
+        "link": "#cat命令-查看文件",
         "children": []
       },
       {
         "level": 2,
-        "title": "more命令",
-        "slug": "more命令",
-        "link": "#more命令",
+        "title": "more命令:查看文件",
+        "slug": "more命令-查看文件",
+        "link": "#more命令-查看文件",
         "children": []
       },
       {
         "level": 2,
-        "title": "cp命令",
-        "slug": "cp命令",
-        "link": "#cp命令",
+        "title": "cp命令:复制文件/文件夹",
+        "slug": "cp命令-复制文件-文件夹",
+        "link": "#cp命令-复制文件-文件夹",
         "children": []
       },
       {
         "level": 2,
-        "title": "mv命令",
-        "slug": "mv命令",
-        "link": "#mv命令",
+        "title": "mv命令:移动文件/文件夹",
+        "slug": "mv命令-移动文件-文件夹",
+        "link": "#mv命令-移动文件-文件夹",
         "children": []
       },
       {
         "level": 2,
-        "title": "rm命令",
-        "slug": "rm命令",
-        "link": "#rm命令",
+        "title": "rm命令:删除文件/文件夹",
+        "slug": "rm命令-删除文件-文件夹",
+        "link": "#rm命令-删除文件-文件夹",
         "children": []
       },
       {
@@ -193,27 +243,85 @@ export const SEARCH_INDEX = [
     "headers": [
       {
         "level": 2,
-        "title": "grep命令",
-        "slug": "grep命令",
-        "link": "#grep命令",
+        "title": "grep命令:过滤",
+        "slug": "grep命令-过滤",
+        "link": "#grep命令-过滤",
         "children": []
       },
       {
         "level": 2,
-        "title": "wc命令",
-        "slug": "wc命令",
-        "link": "#wc命令",
+        "title": "wc命令:统计",
+        "slug": "wc命令-统计",
+        "link": "#wc命令-统计",
         "children": []
       },
       {
         "level": 2,
-        "title": "管道符",
-        "slug": "管道符",
-        "link": "#管道符",
+        "title": "管道符:嵌套",
+        "slug": "管道符-嵌套",
+        "link": "#管道符-嵌套",
         "children": []
       }
     ],
     "path": "/linuxLearning/FirstMeetLinux/grep-wc-Command.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "主机状态",
+    "headers": [
+      {
+        "level": 2,
+        "title": "top命令:查看资源占用",
+        "slug": "top命令-查看资源占用",
+        "link": "#top命令-查看资源占用",
+        "children": [
+          {
+            "level": 3,
+            "title": "top命令内容详解",
+            "slug": "top命令内容详解",
+            "link": "#top命令内容详解",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "top命令选项",
+            "slug": "top命令选项",
+            "link": "#top命令选项",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "top交互选项",
+            "slug": "top交互选项",
+            "link": "#top交互选项",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "df命令:磁盘信息监控",
+        "slug": "df命令-磁盘信息监控",
+        "link": "#df命令-磁盘信息监控",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "iostat命令:查看CPU、磁盘",
+        "slug": "iostat命令-查看cpu、磁盘",
+        "link": "#iostat命令-查看cpu、磁盘",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "sar命令:网络状态监控",
+        "slug": "sar命令-网络状态监控",
+        "link": "#sar命令-网络状态监控",
+        "children": []
+      }
+    ],
+    "path": "/linuxLearning/FirstMeetLinux/hoststate.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -369,16 +477,16 @@ export const SEARCH_INDEX = [
     "headers": [
       {
         "level": 2,
-        "title": "ping命令",
-        "slug": "ping命令",
-        "link": "#ping命令",
+        "title": "ping命令:检查网络",
+        "slug": "ping命令-检查网络",
+        "link": "#ping命令-检查网络",
         "children": []
       },
       {
         "level": 2,
-        "title": "wget命令",
-        "slug": "wget命令",
-        "link": "#wget命令",
+        "title": "wget命令:下载文件",
+        "slug": "wget命令-下载文件",
+        "link": "#wget命令-下载文件",
         "children": []
       },
       {
@@ -471,16 +579,16 @@ export const SEARCH_INDEX = [
     "headers": [
       {
         "level": 2,
-        "title": "su命令",
-        "slug": "su命令",
-        "link": "#su命令",
+        "title": "su命令:切换账户",
+        "slug": "su命令-切换账户",
+        "link": "#su命令-切换账户",
         "children": []
       },
       {
         "level": 2,
-        "title": "sudo命令",
-        "slug": "sudo命令",
-        "link": "#sudo命令",
+        "title": "sudo命令:临时root",
+        "slug": "sudo命令-临时root",
+        "link": "#sudo命令-临时root",
         "children": [
           {
             "level": 3,
@@ -519,7 +627,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "systemctl命令",
+    "title": "systemctl命令:控制",
     "headers": [],
     "path": "/linuxLearning/FirstMeetLinux/systemctl-Command.html",
     "pathLocale": "/",
@@ -572,6 +680,28 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/linuxLearning/FirstMeetLinux/tips.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "上传和下载",
+    "headers": [
+      {
+        "level": 2,
+        "title": "rz命令:上传",
+        "slug": "rz命令-上传",
+        "link": "#rz命令-上传",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "sz命令:下载",
+        "slug": "sz命令-下载",
+        "link": "#sz命令-下载",
+        "children": []
+      }
+    ],
+    "path": "/linuxLearning/FirstMeetLinux/upload-download.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -697,16 +827,16 @@ export const SEARCH_INDEX = [
     "headers": [
       {
         "level": 2,
-        "title": "which命令",
-        "slug": "which命令",
-        "link": "#which命令",
+        "title": "which命令:找程序",
+        "slug": "which命令-找程序",
+        "link": "#which命令-找程序",
         "children": []
       },
       {
         "level": 2,
-        "title": "find命令",
-        "slug": "find命令",
-        "link": "#find命令",
+        "title": "find命令:找文件",
+        "slug": "find命令-找文件",
+        "link": "#find命令-找文件",
         "children": [
           {
             "level": 3,
@@ -733,6 +863,42 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/linuxLearning/FirstMeetLinux/which-find-Command.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "压缩与解压",
+    "headers": [
+      {
+        "level": 2,
+        "title": "压缩格式",
+        "slug": "压缩格式",
+        "link": "#压缩格式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "tar命令:压缩、解压",
+        "slug": "tar命令-压缩、解压",
+        "link": "#tar命令-压缩、解压",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "zip命令:压缩",
+        "slug": "zip命令-压缩",
+        "link": "#zip命令-压缩",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "unzip命令:解压",
+        "slug": "unzip命令-解压",
+        "link": "#unzip命令-解压",
+        "children": []
+      }
+    ],
+    "path": "/linuxLearning/FirstMeetLinux/zip-unzip.html",
     "pathLocale": "/",
     "extraFields": []
   },

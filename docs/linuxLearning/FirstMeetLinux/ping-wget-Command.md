@@ -1,5 +1,5 @@
 # 网络请求与下载
-## ping命令
+## ping命令:检查网络
 使用`ping`可以检查网络服务器是否是可联通状态，语法如下：  
 `ping [-c num] ip或主机名`
 - `-c`：检查的次数，不使用的话将无限次持续检查。
@@ -16,7 +16,7 @@ PING a.w.bilicdn1.com (223.111.250.54) 56(84) bytes of data.
 4 packets transmitted, 4 received, 0% packet loss, time 3016ms
 rtt min/avg/max/mdev = 28.709/46.223/89.358/24.985 ms
 ```
-## wget命令
+## wget命令:下载文件
 `wget`是非交互式的文件加载器，可以在命令行中下载网络文件，语法如下：  
 `wget [-b] url`
 - `-b`：可选，表示在后台下载，并且将日志写入当前工作目录的wget-log文件。

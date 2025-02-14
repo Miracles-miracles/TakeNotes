@@ -1,5 +1,5 @@
 <template><div><h1 id="日期和时区" tabindex="-1"><a class="header-anchor" href="#日期和时区"><span>日期和时区</span></a></h1>
-<h2 id="date命令" tabindex="-1"><a class="header-anchor" href="#date命令"><span>date命令</span></a></h2>
+<h2 id="date命令-查看时间" tabindex="-1"><a class="header-anchor" href="#date命令-查看时间"><span>date命令:查看时间</span></a></h2>
 <p>通过date命令可以在命令行中查看系统的时间，语法如下：<br>
 <code v-pre>date [-d] [+格式化字符串]</code></p>
 <ul>

@@ -1,5 +1,5 @@
 <template><div><h1 id="网络请求与下载" tabindex="-1"><a class="header-anchor" href="#网络请求与下载"><span>网络请求与下载</span></a></h1>
-<h2 id="ping命令" tabindex="-1"><a class="header-anchor" href="#ping命令"><span>ping命令</span></a></h2>
+<h2 id="ping命令-检查网络" tabindex="-1"><a class="header-anchor" href="#ping命令-检查网络"><span>ping命令:检查网络</span></a></h2>
 <p>使用<code v-pre>ping</code>可以检查网络服务器是否是可联通状态，语法如下：<br>
 <code v-pre>ping [-c num] ip或主机名</code></p>
 <ul>
@@ -17,7 +17,7 @@
 <span class="line">4 packets transmitted, 4 received, 0% packet loss, time 3016ms</span>
 <span class="line">rtt min/avg/max/mdev = 28.709/46.223/89.358/24.985 ms</span>
 <span class="line"></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="wget命令" tabindex="-1"><a class="header-anchor" href="#wget命令"><span>wget命令</span></a></h2>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="wget命令-下载文件" tabindex="-1"><a class="header-anchor" href="#wget命令-下载文件"><span>wget命令:下载文件</span></a></h2>
 <p><code v-pre>wget</code>是非交互式的文件加载器，可以在命令行中下载网络文件，语法如下：<br>
 <code v-pre>wget [-b] url</code></p>
 <ul>

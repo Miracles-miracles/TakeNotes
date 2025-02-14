@@ -1,4 +1,4 @@
-# systemctl命令
+# systemctl命令:控制
 Linux很多软件均支持`sysemctl`命令控制启动、停止、开机自启，能被`systemctl`管理的软件一般被称为：服务。其语法如下：  
 `systemctl start | stop | status | enable | disable 服务名`
 - `start`：启动

@@ -1,4 +1,4 @@
-<template><div><h1 id="systemctl命令" tabindex="-1"><a class="header-anchor" href="#systemctl命令"><span>systemctl命令</span></a></h1>
+<template><div><h1 id="systemctl命令-控制" tabindex="-1"><a class="header-anchor" href="#systemctl命令-控制"><span>systemctl命令:控制</span></a></h1>
 <p>Linux很多软件均支持<code v-pre>sysemctl</code>命令控制启动、停止、开机自启，能被<code v-pre>systemctl</code>管理的软件一般被称为：服务。其语法如下：<br>
 <code v-pre>systemctl start | stop | status | enable | disable 服务名</code></p>
 <ul>

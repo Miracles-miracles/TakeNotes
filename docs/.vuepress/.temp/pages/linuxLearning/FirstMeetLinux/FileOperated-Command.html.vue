@@ -1,5 +1,5 @@
 <template><div><h1 id="文件操作" tabindex="-1"><a class="header-anchor" href="#文件操作"><span>文件操作</span></a></h1>
-<h2 id="touch命令" tabindex="-1"><a class="header-anchor" href="#touch命令"><span>touch命令</span></a></h2>
+<h2 id="touch命令-创建文件" tabindex="-1"><a class="header-anchor" href="#touch命令-创建文件"><span>touch命令:创建文件</span></a></h2>
 <p>touch命令用于创建<strong>文件</strong>而不是<strong>文件夹（目录）</strong>，该命令语法如下：<br>
 <code v-pre>touch Linux路径</code></p>
 <ul>
@@ -14,7 +14,7 @@
 <span class="line">hello.txt</span>
 <span class="line"></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><br>
-<h2 id="cat命令" tabindex="-1"><a class="header-anchor" href="#cat命令"><span>cat命令</span></a></h2>
+<h2 id="cat命令-查看文件" tabindex="-1"><a class="header-anchor" href="#cat命令-查看文件"><span>cat命令:查看文件</span></a></h2>
 <p>cat命令用于查看文件内容，现在查看刚才创建的<code v-pre>hello.txt</code>文件：</p>
 <div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre v-pre><code><span class="line">[miracles@192 test]$ cat hello.txt</span>
 <span class="line">[miracles@192 test]$ </span>
@@ -24,7 +24,7 @@
 <span class="line">Hello Linux</span>
 <span class="line"></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><br>
-<h2 id="more命令" tabindex="-1"><a class="header-anchor" href="#more命令"><span>more命令</span></a></h2>
+<h2 id="more命令-查看文件" tabindex="-1"><a class="header-anchor" href="#more命令-查看文件"><span>more命令:查看文件</span></a></h2>
 <p>more命令也可以查看文件内容，但是于<code v-pre>cat</code>不同的是：</p>
 <ul>
 <li><code v-pre>cat</code>是直接将内容全部显示出来。</li>
@@ -33,7 +33,7 @@
 <li>该命令没有选项，只有必填参数，参数表示被查看的文件路径，相对、绝对、特殊路径符都可以使用。
 <br></li>
 </ul>
-<h2 id="cp命令" tabindex="-1"><a class="header-anchor" href="#cp命令"><span>cp命令</span></a></h2>
+<h2 id="cp命令-复制文件-文件夹" tabindex="-1"><a class="header-anchor" href="#cp命令-复制文件-文件夹"><span>cp命令:复制文件/文件夹</span></a></h2>
 <p>cp命令用于复制文件/文件夹，该命令源于<strong>copy</strong>，其语法如下：<br>
 <code v-pre>cp [-r] 参数1 参数2</code></p>
 <ul>
@@ -51,7 +51,7 @@
 <span class="line">Hello Linux</span>
 <span class="line"></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><br>
-<h2 id="mv命令" tabindex="-1"><a class="header-anchor" href="#mv命令"><span>mv命令</span></a></h2>
+<h2 id="mv命令-移动文件-文件夹" tabindex="-1"><a class="header-anchor" href="#mv命令-移动文件-文件夹"><span>mv命令:移动文件/文件夹</span></a></h2>
 <p>mv命令用于移动文件/文件夹，该命令来自<strong>move</strong>，语法如下：<br>
 <code v-pre>mv 参数1 参数</code></p>
 <ul>
@@ -71,7 +71,7 @@
 <span class="line">666</span>
 <span class="line"></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><br>
-<h2 id="rm命令" tabindex="-1"><a class="header-anchor" href="#rm命令"><span>rm命令</span></a></h2>
+<h2 id="rm命令-删除文件-文件夹" tabindex="-1"><a class="header-anchor" href="#rm命令-删除文件-文件夹"><span>rm命令:删除文件/文件夹</span></a></h2>
 <p>rm命令用于删除文件/文件夹，该命令来自<strong>remove</strong>，语法如下：<br>
 <code v-pre>rm [-r -f] 参数1 参数2 ...... 参数N</code></p>
 <ul>

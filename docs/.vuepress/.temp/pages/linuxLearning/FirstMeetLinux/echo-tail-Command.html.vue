@@ -1,5 +1,5 @@
 <template><div><h1 id="echo、tail与重定向符" tabindex="-1"><a class="header-anchor" href="#echo、tail与重定向符"><span>echo、tail与重定向符</span></a></h1>
-<h2 id="echo命令" tabindex="-1"><a class="header-anchor" href="#echo命令"><span>echo命令</span></a></h2>
+<h2 id="echo命令-输出" tabindex="-1"><a class="header-anchor" href="#echo命令-输出"><span>echo命令:输出</span></a></h2>
 <p>echo命令可以在命令行中输出指定内容，有点像C语言的<code v-pre>printf</code>，其语法如下：<br>
 <code v-pre>echo 输出的内容</code></p>
 <ul>
@@ -17,7 +17,7 @@
 <span class="line">/home/miracles</span>
 <span class="line"></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><br>
-<h2 id="tail命令" tabindex="-1"><a class="header-anchor" href="#tail命令"><span>tail命令</span></a></h2>
+<h2 id="tail命令-跟踪" tabindex="-1"><a class="header-anchor" href="#tail命令-跟踪"><span>tail命令:跟踪</span></a></h2>
 <p>tail命令可以查看文件尾部的内容，用于跟踪文件的最新更改，语法如下：<br>
 <code v-pre>tail [-f -num] Linux路径</code></p>
 <ul>
