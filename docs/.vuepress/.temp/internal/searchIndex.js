@@ -1,15 +1,15 @@
 export const SEARCH_INDEX = [
   {
-    "title": "关于创建静态网站这件事",
+    "title": "从Linux命令入手，由此开启Linux世界的大门吧。",
     "headers": [],
-    "path": "/about/",
+    "path": "/linuxLearning/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "从Linux命令入手，由此开启Linux世界的大门吧。",
+    "title": "关于创建静态网站这件事",
     "headers": [],
-    "path": "/linuxLearning/",
+    "path": "/about/",
     "pathLocale": "/",
     "extraFields": []
   },

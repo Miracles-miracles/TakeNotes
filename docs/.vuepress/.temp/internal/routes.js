@@ -2,8 +2,8 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
-  ["/about/", { loader: () => import(/* webpackChunkName: "about_index.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/about/index.html.js"), meta: {"title":"关于创建静态网站这件事"} }],
   ["/linuxLearning/", { loader: () => import(/* webpackChunkName: "linuxLearning_index.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/linuxLearning/index.html.js"), meta: {"title":"从Linux命令入手，由此开启Linux世界的大门吧。"} }],
+  ["/about/", { loader: () => import(/* webpackChunkName: "about_index.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/about/index.html.js"), meta: {"title":"关于创建静态网站这件事"} }],
   ["/javaLearning/practice/BinarySearchTree.html", { loader: () => import(/* webpackChunkName: "javaLearning_practice_BinarySearchTree.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/javaLearning/practice/BinarySearchTree.html.js"), meta: {"title":"二叉搜索树"} }],
   ["/javaLearning/practice/", { loader: () => import(/* webpackChunkName: "javaLearning_practice_index.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/javaLearning/practice/index.html.js"), meta: {"title":"练习，的确需要练习。"} }],
   ["/linuxLearning/FirstMeetLinux/cd-pwd-Command.html", { loader: () => import(/* webpackChunkName: "linuxLearning_FirstMeetLinux_cd-pwd-Command.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/linuxLearning/FirstMeetLinux/cd-pwd-Command.html.js"), meta: {"title":"cd-pwd:目录切换"} }],

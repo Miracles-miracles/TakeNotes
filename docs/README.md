@@ -8,7 +8,7 @@ actions:
     link: /about/
     type: primary
   - text: 看看Java
-    link: /javaLearning/practice/
+    link: /javaLearning/practice/README.md
     type: secondary
   - text: 看看Linux
     link: /linuxLearning/
