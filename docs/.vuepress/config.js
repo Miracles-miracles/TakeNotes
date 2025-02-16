@@ -104,7 +104,10 @@ export default defineUserConfig({
       ],
 
       '/javaLearning/practice/': [
-        {text: '二叉搜索树', link: '/javaLearning/practice/BinarySearchTree.md'}
+        {text: '二叉搜索树', link: '/javaLearning/practice/BinarySearchTree.md'},
+        {text: '平衡二叉树', link: '/javaLearning/practice/BalancedBinaryTree.md'},
+        {text: '二叉树的最小深度', link: '/javaLearning/practice/TheMinDepthOfBinaryTree.md'},
+        {text: '二叉树的最大深度', link: '/javaLearning/practice/TheMaxDepthOfBinaryTree.md'}
       ]
     },
 

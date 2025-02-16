@@ -14,6 +14,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "平衡二叉树",
+    "headers": [],
+    "path": "/javaLearning/practice/BalancedBinaryTree.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "二叉搜索树",
     "headers": [],
     "path": "/javaLearning/practice/BinarySearchTree.html",
@@ -24,6 +31,20 @@ export const SEARCH_INDEX = [
     "title": "练习，的确需要练习。",
     "headers": [],
     "path": "/javaLearning/practice/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "二叉树的最大深度",
+    "headers": [],
+    "path": "/javaLearning/practice/TheMaxDepthOfBinaryTree.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "二叉树的最小深度",
+    "headers": [],
+    "path": "/javaLearning/practice/TheMinDepthOfBinaryTree.html",
     "pathLocale": "/",
     "extraFields": []
   },
