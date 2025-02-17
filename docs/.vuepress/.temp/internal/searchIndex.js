@@ -151,6 +151,85 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "关于建站的问题",
+    "headers": [],
+    "path": "/about/AboutWeb/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "生成静态网站",
+    "headers": [
+      {
+        "level": 2,
+        "title": "VuePress:Vue 驱动的静态网站生成器",
+        "slug": "vuepress-vue-驱动的静态网站生成器",
+        "link": "#vuepress-vue-驱动的静态网站生成器",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "基本流程",
+        "slug": "基本流程",
+        "link": "#基本流程",
+        "children": [
+          {
+            "level": 3,
+            "title": "创建项目",
+            "slug": "创建项目",
+            "link": "#创建项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "接下来跟着官网做",
+            "slug": "接下来跟着官网做",
+            "link": "#接下来跟着官网做",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "配置首页",
+            "slug": "配置首页",
+            "link": "#配置首页",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "配置导航栏",
+            "slug": "配置导航栏",
+            "link": "#配置导航栏",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "配置侧边栏",
+            "slug": "配置侧边栏",
+            "link": "#配置侧边栏",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "部署到GitHub Pages",
+            "slug": "部署到github-pages",
+            "link": "#部署到github-pages",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "本地代码上传至GitHub",
+            "slug": "本地代码上传至github",
+            "link": "#本地代码上传至github",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/about/AboutWeb/StaticWeb.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "cd-pwd:目录切换",
     "headers": [
       {

@@ -52,6 +52,11 @@ export default defineUserConfig({
             {
               text: '使用Git的问题',
               link: '/about/AboutGit/'
+            },
+
+            {
+              text: '建站的问题',
+              link: '/about/AboutWeb/'
             }
           ]
         },
@@ -125,6 +130,10 @@ export default defineUserConfig({
         {text: '初次使用Git', link: '/about/AboutGit/FirstMeetGit.md'},
         {text: '创建Git仓库', link: '/about/AboutGit/CreateRepo.md'},
         {text: '添加和提交文件', link: '/about/AboutGit/PushAndCommit.md'}
+      ],
+
+      '/about/AboutWeb/': [
+        {text: '生成静态网站', link: '/about/AboutWeb/StaticWeb.md'}
       ],
 
     },
