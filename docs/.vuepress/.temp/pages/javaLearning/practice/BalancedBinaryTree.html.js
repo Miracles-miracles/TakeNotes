@@ -1,3 +1,3 @@
 import comp from "D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/javaLearning/practice/BalancedBinaryTree.html.vue"
-const data = JSON.parse("{\"path\":\"/javaLearning/practice/BalancedBinaryTree.html\",\"title\":\"平衡二叉树\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"javaLearning/practice/BalancedBinaryTree.md\"}")
+const data = JSON.parse("{\"path\":\"/javaLearning/practice/BalancedBinaryTree.html\",\"title\":\"平衡二叉树\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1739718174000,\"contributors\":[{\"name\":\"Miracles-miracles\",\"username\":\"Miracles-miracles\",\"email\":\"2663284851@qq.com\",\"commits\":1,\"url\":\"https://github.com/Miracles-miracles\"}]},\"filePathRelative\":\"javaLearning/practice/BalancedBinaryTree.md\"}")
 export { comp, data }

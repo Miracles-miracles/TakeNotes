@@ -45,7 +45,18 @@ export default defineUserConfig({
           ]
         },
 
-        {text: '关于', link: '/about/'},
+        {
+          text: '关于', 
+          link: '/about/',
+          children: [
+            {
+              text: '使用Git的问题',
+              link: '/about/AboutGit/'
+            }
+          ]
+        },
+
+        {text: '我的', link: '/my/'},
         {text: 'LeetCode', link: 'https://leetcode.cn/'},
         {text: 'GitHub', link: 'https://github.com/'}
     ],
@@ -108,7 +119,14 @@ export default defineUserConfig({
         {text: '平衡二叉树', link: '/javaLearning/practice/BalancedBinaryTree.md'},
         {text: '二叉树的最小深度', link: '/javaLearning/practice/TheMinDepthOfBinaryTree.md'},
         {text: '二叉树的最大深度', link: '/javaLearning/practice/TheMaxDepthOfBinaryTree.md'}
-      ]
+      ],
+
+      '/about/AboutGit/': [
+        {text: '初次使用Git', link: '/about/AboutGit/FirstMeetGit.md'},
+        {text: '创建Git仓库', link: '/about/AboutGit/CreateRepo.md'},
+        {text: '添加和提交文件', link: '/about/AboutGit/PushAndCommit.md'}
+      ],
+
     },
 
   })

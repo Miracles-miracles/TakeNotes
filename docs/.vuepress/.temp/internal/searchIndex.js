@@ -1,15 +1,15 @@
 export const SEARCH_INDEX = [
   {
-    "title": "从Linux命令入手，由此开启Linux世界的大门吧。",
+    "title": "关于创建静态网站这件事",
     "headers": [],
-    "path": "/linuxLearning/",
+    "path": "/my/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "关于创建静态网站这件事",
+    "title": "从Linux命令入手，由此开启Linux世界的大门吧。",
     "headers": [],
-    "path": "/about/",
+    "path": "/linuxLearning/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -45,6 +45,108 @@ export const SEARCH_INDEX = [
     "title": "二叉树的最小深度",
     "headers": [],
     "path": "/javaLearning/practice/TheMinDepthOfBinaryTree.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "创建Git仓库",
+    "headers": [
+      {
+        "level": 2,
+        "title": "git init:在已存在目录中初始化仓库",
+        "slug": "git-init-在已存在目录中初始化仓库",
+        "link": "#git-init-在已存在目录中初始化仓库",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "git clone:克隆现有仓库",
+        "slug": "git-clone-克隆现有仓库",
+        "link": "#git-clone-克隆现有仓库",
+        "children": [
+          {
+            "level": 3,
+            "title": "生成ssh公钥",
+            "slug": "生成ssh公钥",
+            "link": "#生成ssh公钥",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/about/AboutGit/CreateRepo.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "初次使用Git",
+    "headers": [
+      {
+        "level": 2,
+        "title": "判断是否安装成功",
+        "slug": "判断是否安装成功",
+        "link": "#判断是否安装成功",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "完善用户信息",
+        "slug": "完善用户信息",
+        "link": "#完善用户信息",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "检查配置信息",
+        "slug": "检查配置信息",
+        "link": "#检查配置信息",
+        "children": []
+      }
+    ],
+    "path": "/about/AboutGit/FirstMeetGit.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "添加并提交文件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "git status:查看仓库状态",
+        "slug": "git-status-查看仓库状态",
+        "link": "#git-status-查看仓库状态",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "git add:添加到暂存区",
+        "slug": "git-add-添加到暂存区",
+        "link": "#git-add-添加到暂存区",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "git commit:提交到仓库",
+        "slug": "git-commit-提交到仓库",
+        "link": "#git-commit-提交到仓库",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "git push:关联本地仓库和远程仓库",
+        "slug": "git-push-关联本地仓库和远程仓库",
+        "link": "#git-push-关联本地仓库和远程仓库",
+        "children": []
+      }
+    ],
+    "path": "/about/AboutGit/PushAndCommit.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "关于使用Git的问题",
+    "headers": [],
+    "path": "/about/AboutGit/",
     "pathLocale": "/",
     "extraFields": []
   },
