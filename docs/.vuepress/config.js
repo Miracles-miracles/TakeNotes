@@ -35,14 +35,8 @@ export default defineUserConfig({
         },
 
         {
-          text: '学习Java', 
-          link: '/javaLearning/',
-          children: [
-            {
-              text: '练习',
-              link: '/javaLearning/practice/'
-            }
-          ]
+          text: '学习算法', 
+          link: '/algorithmLearning/',
         },
 
         {
@@ -116,14 +110,24 @@ export default defineUserConfig({
             {text: '上传和下载', link: '/linuxLearning/FirstMeetLinux/upload-download.md'},
             {text: '压缩与解压', link: '/linuxLearning/FirstMeetLinux/zip-unzip.md'}
           ]
+        },
+
+        {
+          text:'Linux软件部署',
+          link:'/linuxLearning/FirstMeetLinux/deploy.md',
+          collapsible: true,
+          children: [
+            {text: '在CentOS上安装MySQL', link: '/linuxLearning/FirstMeetLinux/MySQLInCentOS'},
+            
+          ]
         }
       ],
 
-      '/javaLearning/practice/': [
-        {text: '二叉搜索树', link: '/javaLearning/practice/BinarySearchTree.md'},
-        {text: '平衡二叉树', link: '/javaLearning/practice/BalancedBinaryTree.md'},
-        {text: '二叉树的最小深度', link: '/javaLearning/practice/TheMinDepthOfBinaryTree.md'},
-        {text: '二叉树的最大深度', link: '/javaLearning/practice/TheMaxDepthOfBinaryTree.md'}
+      '/algorithmLearning/': [
+        {text: '二叉搜索树', link: '/algorithmLearning/BinarySearchTree.md'},
+        {text: '平衡二叉树', link: '/algorithmLearning/BalancedBinaryTree.md'},
+        {text: '二叉树的最小深度', link: '/algorithmLearning/TheMinDepthOfBinaryTree.md'},
+        {text: '二叉树的最大深度', link: '/algorithmLearning/TheMaxDepthOfBinaryTree.md'}
       ],
 
       '/about/AboutGit/': [

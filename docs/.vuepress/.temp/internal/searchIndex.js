@@ -1,12 +1,5 @@
 export const SEARCH_INDEX = [
   {
-    "title": "关于创建静态网站这件事",
-    "headers": [],
-    "path": "/my/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "从Linux命令入手，由此开启Linux世界的大门吧。",
     "headers": [],
     "path": "/linuxLearning/",
@@ -16,35 +9,42 @@ export const SEARCH_INDEX = [
   {
     "title": "平衡二叉树",
     "headers": [],
-    "path": "/javaLearning/practice/BalancedBinaryTree.html",
+    "path": "/algorithmLearning/BalancedBinaryTree.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "二叉搜索树",
     "headers": [],
-    "path": "/javaLearning/practice/BinarySearchTree.html",
+    "path": "/algorithmLearning/BinarySearchTree.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "练习，的确需要练习。",
+    "title": "迎难而上",
     "headers": [],
-    "path": "/javaLearning/practice/",
+    "path": "/algorithmLearning/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "二叉树的最大深度",
     "headers": [],
-    "path": "/javaLearning/practice/TheMaxDepthOfBinaryTree.html",
+    "path": "/algorithmLearning/TheMaxDepthOfBinaryTree.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "二叉树的最小深度",
     "headers": [],
-    "path": "/javaLearning/practice/TheMinDepthOfBinaryTree.html",
+    "path": "/algorithmLearning/TheMinDepthOfBinaryTree.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "关于创建静态网站这件事",
+    "headers": [],
+    "path": "/my/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -315,6 +315,13 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/linuxLearning/FirstMeetLinux/date.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Linux软件部署",
+    "headers": [],
+    "path": "/linuxLearning/FirstMeetLinux/deploy.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -649,6 +656,86 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/linuxLearning/FirstMeetLinux/mkdir-Command.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "在CentOS上安装MySQL",
+    "headers": [
+      {
+        "level": 2,
+        "title": "安装",
+        "slug": "安装",
+        "link": "#安装",
+        "children": [
+          {
+            "level": 3,
+            "title": "配置yum仓库",
+            "slug": "配置yum仓库",
+            "link": "#配置yum仓库",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "使用yum命令安装MySQL",
+            "slug": "使用yum命令安装mysql",
+            "link": "#使用yum命令安装mysql",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "设置开机自启动",
+            "slug": "设置开机自启动",
+            "link": "#设置开机自启动",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "配置",
+        "slug": "配置",
+        "link": "#配置",
+        "children": [
+          {
+            "level": 3,
+            "title": "获取MySQL的初始密码",
+            "slug": "获取mysql的初始密码",
+            "link": "#获取mysql的初始密码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "登录MySQL数据库系统",
+            "slug": "登录mysql数据库系统",
+            "link": "#登录mysql数据库系统",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "修改root用户密码",
+            "slug": "修改root用户密码",
+            "link": "#修改root用户密码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "更改密码配置",
+            "slug": "更改密码配置",
+            "link": "#更改密码配置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "配置root运行远程登录",
+            "slug": "配置root运行远程登录",
+            "link": "#配置root运行远程登录",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/linuxLearning/FirstMeetLinux/MySQLInCentOS.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1112,3 +1199,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}
