@@ -1,0 +1,3 @@
+import comp from "D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/OPsLearning/FirstMeetLinux/vim-Command.html.vue"
+const data = JSON.parse("{\"path\":\"/OPsLearning/FirstMeetLinux/vim-Command.html\",\"title\":\"vim编辑器\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"vim的三种工作模式\",\"slug\":\"vim的三种工作模式\",\"link\":\"#vim的三种工作模式\",\"children\":[{\"level\":3,\"title\":\"命令模式\",\"slug\":\"命令模式\",\"link\":\"#命令模式\",\"children\":[]},{\"level\":3,\"title\":\"底线命令模式\",\"slug\":\"底线命令模式\",\"link\":\"#底线命令模式\",\"children\":[]}]}],\"git\":{},\"filePathRelative\":\"OPsLearning/FirstMeetLinux/vim-Command.md\"}")
+export { comp, data }

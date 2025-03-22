@@ -106,3 +106,12 @@ ERROR 1819 (HY000): Your password does not satisfy the current policy requiremen
 现在就可以使用简单密码了，比如纯数字的“123456”之类的。
 
 ### 配置root运行远程登录
+使用其他设备（非本机设备）也可以进行登录使用  
+- 授权root远程登录  
+`grant all privileges on *.* to root@"IP地址" identified by '密码' with grant option;`
+:::tip
+IP地址任意，也可使用`%`表示所有IP可用。  
+`密码`可以是任意的，即可以和MySQL登录密码不同。
+:::
+- 刷新权限生效  
+`flush privileges;`

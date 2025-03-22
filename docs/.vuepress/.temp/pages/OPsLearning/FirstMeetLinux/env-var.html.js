@@ -1,0 +1,3 @@
+import comp from "D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/OPsLearning/FirstMeetLinux/env-var.html.vue"
+const data = JSON.parse("{\"path\":\"/OPsLearning/FirstMeetLinux/env-var.html\",\"title\":\"环境变量\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"env命令:查看环境变量\",\"slug\":\"env命令-查看环境变量\",\"link\":\"#env命令-查看环境变量\",\"children\":[]},{\"level\":2,\"title\":\"PATH\",\"slug\":\"path\",\"link\":\"#path\",\"children\":[]},{\"level\":2,\"title\":\"$符号\",\"slug\":\"符号\",\"link\":\"#符号\",\"children\":[]},{\"level\":2,\"title\":\"设置环境变量\",\"slug\":\"设置环境变量\",\"link\":\"#设置环境变量\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"OPsLearning/FirstMeetLinux/env-var.md\"}")
+export { comp, data }

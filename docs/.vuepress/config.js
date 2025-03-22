@@ -24,12 +24,12 @@ export default defineUserConfig({
         {text: '首页', link: '/'},
 
         {
-          text: '学习Linux', 
-          link: '/linuxLearning/',
+          text: '学习运维', 
+          link: '/OPsLearning/',
           children: [
             {
               text: '初识Linux',
-              link: '/linuxLearning/',
+              link: '/OPsLearning/FirstMeetLinux/easyLinux.md',
             }
           ]
         },
@@ -61,64 +61,64 @@ export default defineUserConfig({
     ],
 
     sidebar: {
-      '/linuxLearning/': [
+      '/OPsLearning/': [
         {
           text: 'Linux命令',
-          link: '/linuxLearning/',
+          link: '/OPsLearning/FirstMeetLinux/easyLinux.md',
           collapsible: true,
           children: [
-            {text: 'ls:列出目录内容', link: '/linuxLearning/FirstMeetLinux/ls-Command.md'},
-            {text: 'cd-pwd:目录切换', link: '/linuxLearning/FirstMeetLinux/cd-pwd-Command.md'},
-            {text: '路径', link: '/linuxLearning/FirstMeetLinux/path.md'},
-            {text: 'mkdir:创建目录(文件夹)', link: '/linuxLearning/FirstMeetLinux/mkdir-Command.md'},
-            {text: '文件操作', link: '/linuxLearning/FirstMeetLinux/FileOperated-Command.md'},
-            {text: 'which-find:查找', link: '/linuxLearning/FirstMeetLinux/which-find-Command.md'},
-            {text: 'grep-wc:筛选于与统计', link: '/linuxLearning/FirstMeetLinux/grep-wc-Command.md'},
-            {text: 'echo-tail:输出与跟踪', link: '/linuxLearning/FirstMeetLinux/echo-tail-Command.md'},
-            {text: 'vim:编辑器', link: '/linuxLearning/FirstMeetLinux/vim-Command.md'}
+            {text: 'ls:列出目录内容', link: '/OPsLearning/FirstMeetLinux/ls-Command.md'},
+            {text: 'cd-pwd:目录切换', link: '/OPsLearning/FirstMeetLinux/cd-pwd-Command.md'},
+            {text: '路径', link: '/OPsLearning/FirstMeetLinux/path.md'},
+            {text: 'mkdir:创建目录(文件夹)', link: '/OPsLearning/FirstMeetLinux/mkdir-Command.md'},
+            {text: '文件操作', link: '/OPsLearning/FirstMeetLinux/FileOperated-Command.md'},
+            {text: 'which-find:查找', link: '/OPsLearning/FirstMeetLinux/which-find-Command.md'},
+            {text: 'grep-wc:筛选于与统计', link: '/OPsLearning/FirstMeetLinux/grep-wc-Command.md'},
+            {text: 'echo-tail:输出与跟踪', link: '/OPsLearning/FirstMeetLinux/echo-tail-Command.md'},
+            {text: 'vim:编辑器', link: '/OPsLearning/FirstMeetLinux/vim-Command.md'}
           ]
         },
 
         {
           text: 'Linux用户及权限',
-          link: '/linuxLearning/FirstMeetLinux/Users-Permissions.md',
+          link: '/OPsLearning/FirstMeetLinux/Users-Permissions.md',
           collapsible: true,
           children: [
-            {text: '认识root用户', link: '/linuxLearning/FirstMeetLinux/root.md'},
-            {text: '用户、用户组管理', link: '/linuxLearning/FirstMeetLinux/user-usergroup.md'},
-            {text: '权限信息', link: '/linuxLearning/FirstMeetLinux/right.md'},
-            {text: 'chmod-chown:修改权限与所属', link: '/linuxLearning/FirstMeetLinux/chmod-chown-Command.md'}
+            {text: '认识root用户', link: '/OPsLearning/FirstMeetLinux/root.md'},
+            {text: '用户、用户组管理', link: '/OPsLearning/FirstMeetLinux/user-usergroup.md'},
+            {text: '权限信息', link: '/OPsLearning/FirstMeetLinux/right.md'},
+            {text: 'chmod-chown:修改权限与所属', link: '/OPsLearning/FirstMeetLinux/chmod-chown-Command.md'}
           ]
         },
 
         {
           text: 'Linux使用操作', 
-          link: '/linuxLearning/FirstMeetLinux/skill.md',
+          link: '/OPsLearning/FirstMeetLinux/skill.md',
           collapsible: true,
           children: [
-            {text: '小技巧', link: '/linuxLearning/FirstMeetLinux/tips.md'},
-            {text: '软件安装', link: '/linuxLearning/FirstMeetLinux/install.md'},
-            {text: 'systemctl命令', link: '/linuxLearning/FirstMeetLinux/systemctl-Command.md'},
-            {text: '软链接', link: '/linuxLearning/FirstMeetLinux/softlink.md'},
-            {text: '日期和时区', link: '/linuxLearning/FirstMeetLinux/date.md'},
-            {text: 'ip地址与主机名', link: '/linuxLearning/FirstMeetLinux/ip-hostname.md'},
-            {text: '网络请求与下载', link: '/linuxLearning/FirstMeetLinux/ping-wget-Command.md'},
-            {text: '端口', link: '/linuxLearning/FirstMeetLinux/port.md'},
-            {text: '进程管理', link: '/linuxLearning/FirstMeetLinux/process.md'},
-            {text: '主机状态', link: '/linuxLearning/FirstMeetLinux/hoststate.md'},
-            {text: '环境变量', link: '/linuxLearning/FirstMeetLinux/env-var.md'},
-            {text: '上传和下载', link: '/linuxLearning/FirstMeetLinux/upload-download.md'},
-            {text: '压缩与解压', link: '/linuxLearning/FirstMeetLinux/zip-unzip.md'}
+            {text: '小技巧', link: '/OPsLearning/FirstMeetLinux/tips.md'},
+            {text: '软件安装', link: '/OPsLearning/FirstMeetLinux/install.md'},
+            {text: 'systemctl命令', link: '/OPsLearning/FirstMeetLinux/systemctl-Command.md'},
+            {text: '软链接', link: '/OPsLearning/FirstMeetLinux/softlink.md'},
+            {text: '日期和时区', link: '/OPsLearning/FirstMeetLinux/date.md'},
+            {text: 'ip地址与主机名', link: '/OPsLearning/FirstMeetLinux/ip-hostname.md'},
+            {text: '网络请求与下载', link: '/OPsLearning/FirstMeetLinux/ping-wget-Command.md'},
+            {text: '端口', link: '/OPsLearning/FirstMeetLinux/port.md'},
+            {text: '进程管理', link: '/OPsLearning/FirstMeetLinux/process.md'},
+            {text: '主机状态', link: '/OPsLearning/FirstMeetLinux/hoststate.md'},
+            {text: '环境变量', link: '/OPsLearning/FirstMeetLinux/env-var.md'},
+            {text: '上传和下载', link: '/OPsLearning/FirstMeetLinux/upload-download.md'},
+            {text: '压缩与解压', link: '/OPsLearning/FirstMeetLinux/zip-unzip.md'}
           ]
         },
 
         {
           text:'Linux软件部署',
-          link:'/linuxLearning/FirstMeetLinux/deploy.md',
+          link:'/OPsLearning/FirstMeetLinux/deploy.md',
           collapsible: true,
           children: [
-            {text: '在CentOS上安装MySQL', link: '/linuxLearning/FirstMeetLinux/MySQLInCentOS'},
-            
+            {text: '在CentOS上安装MySQL', link: '/OPsLearning/FirstMeetLinux/MySQLInCentOS'},
+            {text: '在Ubuntu上安装MySQL', link: '/OPsLearning/FirstMeetLinux/MySQLInUbuntu'},
           ]
         }
       ],

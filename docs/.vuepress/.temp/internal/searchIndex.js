@@ -1,12 +1,5 @@
 export const SEARCH_INDEX = [
   {
-    "title": "从Linux命令入手，由此开启Linux世界的大门吧。",
-    "headers": [],
-    "path": "/linuxLearning/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "平衡二叉树",
     "headers": [],
     "path": "/algorithmLearning/BalancedBinaryTree.html",
@@ -247,7 +240,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/cd-pwd-Command.html",
+    "path": "/OPsLearning/FirstMeetLinux/cd-pwd-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -277,7 +270,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/chmod-chown-Command.html",
+    "path": "/OPsLearning/FirstMeetLinux/chmod-chown-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -314,14 +307,21 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/date.html",
+    "path": "/OPsLearning/FirstMeetLinux/date.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "Linux软件部署",
     "headers": [],
-    "path": "/linuxLearning/FirstMeetLinux/deploy.html",
+    "path": "/OPsLearning/FirstMeetLinux/deploy.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "从Linux命令入手，由此开启Linux世界的大门吧。",
+    "headers": [],
+    "path": "/OPsLearning/FirstMeetLinux/easyLinux.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -350,7 +350,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/echo-tail-Command.html",
+    "path": "/OPsLearning/FirstMeetLinux/echo-tail-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -386,7 +386,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/env-var.html",
+    "path": "/OPsLearning/FirstMeetLinux/env-var.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -443,7 +443,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/FileOperated-Command.html",
+    "path": "/OPsLearning/FirstMeetLinux/FileOperated-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -472,7 +472,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/grep-wc-Command.html",
+    "path": "/OPsLearning/FirstMeetLinux/grep-wc-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -530,7 +530,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/hoststate.html",
+    "path": "/OPsLearning/FirstMeetLinux/hoststate.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -552,7 +552,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/install.html",
+    "path": "/OPsLearning/FirstMeetLinux/install.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -611,7 +611,7 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/ip-hostname.html",
+    "path": "/OPsLearning/FirstMeetLinux/ip-hostname.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -640,7 +640,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/ls-Command.html",
+    "path": "/OPsLearning/FirstMeetLinux/ls-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -655,7 +655,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/mkdir-Command.html",
+    "path": "/OPsLearning/FirstMeetLinux/mkdir-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -735,7 +735,72 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/MySQLInCentOS.html",
+    "path": "/OPsLearning/FirstMeetLinux/MySQLInCentOS.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "在Ubuntu上安装MySQL",
+    "headers": [
+      {
+        "level": 2,
+        "title": "安装",
+        "slug": "安装",
+        "link": "#安装",
+        "children": [
+          {
+            "level": 3,
+            "title": "更新apt仓库信息",
+            "slug": "更新apt仓库信息",
+            "link": "#更新apt仓库信息",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "安装MySQL",
+            "slug": "安装mysql",
+            "link": "#安装mysql",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "启动MySQL",
+            "slug": "启动mysql",
+            "link": "#启动mysql",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "登录MySQL",
+            "slug": "登录mysql",
+            "link": "#登录mysql",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "设置密码",
+            "slug": "设置密码",
+            "link": "#设置密码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "对MySQL进行初始化",
+            "slug": "对mysql进行初始化",
+            "link": "#对mysql进行初始化",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "重新登录",
+            "slug": "重新登录",
+            "link": "#重新登录",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/OPsLearning/FirstMeetLinux/MySQLInUbuntu.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -757,7 +822,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/path.html",
+    "path": "/OPsLearning/FirstMeetLinux/path.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -786,7 +851,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/ping-wget-Command.html",
+    "path": "/OPsLearning/FirstMeetLinux/ping-wget-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -808,7 +873,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/port.html",
+    "path": "/OPsLearning/FirstMeetLinux/port.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -830,7 +895,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/process.html",
+    "path": "/OPsLearning/FirstMeetLinux/process.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -859,7 +924,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/right.html",
+    "path": "/OPsLearning/FirstMeetLinux/right.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -889,14 +954,14 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/root.html",
+    "path": "/OPsLearning/FirstMeetLinux/root.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "哦吼，欢迎来到对Linux系统的基础设置部分。",
     "headers": [],
-    "path": "/linuxLearning/FirstMeetLinux/skill.html",
+    "path": "/OPsLearning/FirstMeetLinux/skill.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -911,14 +976,14 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/softlink.html",
+    "path": "/OPsLearning/FirstMeetLinux/softlink.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "systemctl命令:控制",
     "headers": [],
-    "path": "/linuxLearning/FirstMeetLinux/systemctl-Command.html",
+    "path": "/OPsLearning/FirstMeetLinux/systemctl-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -968,7 +1033,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/tips.html",
+    "path": "/OPsLearning/FirstMeetLinux/tips.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -990,7 +1055,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/upload-download.html",
+    "path": "/OPsLearning/FirstMeetLinux/upload-download.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1070,14 +1135,14 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/user-usergroup.html",
+    "path": "/OPsLearning/FirstMeetLinux/user-usergroup.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "深入用户与权限，一起掌握Linux系统的钥匙吧。",
     "headers": [],
-    "path": "/linuxLearning/FirstMeetLinux/Users-Permissions.html",
+    "path": "/OPsLearning/FirstMeetLinux/Users-Permissions.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1107,7 +1172,7 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/vim-Command.html",
+    "path": "/OPsLearning/FirstMeetLinux/vim-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1151,7 +1216,7 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/which-find-Command.html",
+    "path": "/OPsLearning/FirstMeetLinux/which-find-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1187,7 +1252,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/linuxLearning/FirstMeetLinux/zip-unzip.html",
+    "path": "/OPsLearning/FirstMeetLinux/zip-unzip.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1199,16 +1264,3 @@ export const SEARCH_INDEX = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
