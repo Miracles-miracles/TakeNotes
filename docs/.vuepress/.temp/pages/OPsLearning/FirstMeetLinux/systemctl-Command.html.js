@@ -1,3 +1,3 @@
 import comp from "D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/OPsLearning/FirstMeetLinux/systemctl-Command.html.vue"
-const data = JSON.parse("{\"path\":\"/OPsLearning/FirstMeetLinux/systemctl-Command.html\",\"title\":\"systemctl命令:控制\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"OPsLearning/FirstMeetLinux/systemctl-Command.md\"}")
+const data = JSON.parse("{\"path\":\"/OPsLearning/FirstMeetLinux/systemctl-Command.html\",\"title\":\"systemctl命令:控制\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1742653323000,\"contributors\":[{\"name\":\"Miracles-miracles\",\"username\":\"Miracles-miracles\",\"email\":\"2663284851@qq.com\",\"commits\":3,\"url\":\"https://github.com/Miracles-miracles\"}]},\"filePathRelative\":\"OPsLearning/FirstMeetLinux/systemctl-Command.md\"}")
 export { comp, data }

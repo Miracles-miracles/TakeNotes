@@ -87,7 +87,9 @@ export default defineUserConfig({
             {text: '认识root用户', link: '/OPsLearning/FirstMeetLinux/root.md'},
             {text: '用户、用户组管理', link: '/OPsLearning/FirstMeetLinux/user-usergroup.md'},
             {text: '权限信息', link: '/OPsLearning/FirstMeetLinux/right.md'},
-            {text: 'chmod-chown:修改权限与所属', link: '/OPsLearning/FirstMeetLinux/chmod-chown-Command.md'}
+            {text: 'chmod-chown:修改权限与所属', link: '/OPsLearning/FirstMeetLinux/chmod-chown-Command.md'},
+            {text: 'umask:文件默认权限', link: '/OPsLearning/FirstMeetLinux/umask.md'},
+            {text: 'chattr-lsattr:文件隐藏属性', link: '/OPsLearning/FirstMeetLinux/chattr-lsattr.md'}
           ]
         },
 

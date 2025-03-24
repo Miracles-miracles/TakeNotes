@@ -245,6 +245,28 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "chattr-lsattr:文件隐藏属性",
+    "headers": [
+      {
+        "level": 2,
+        "title": "配置文件隐藏属性",
+        "slug": "配置文件隐藏属性",
+        "link": "#配置文件隐藏属性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "显示文件隐藏属性",
+        "slug": "显示文件隐藏属性",
+        "link": "#显示文件隐藏属性",
+        "children": []
+      }
+    ],
+    "path": "/OPsLearning/FirstMeetLinux/chattr-lsattr.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "chmod-chown:修改权限与所属",
     "headers": [
       {
@@ -1034,6 +1056,28 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/OPsLearning/FirstMeetLinux/tips.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "umask:文件默认权限",
+    "headers": [
+      {
+        "level": 2,
+        "title": "查看默认权限",
+        "slug": "查看默认权限",
+        "link": "#查看默认权限",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "修改默认权限",
+        "slug": "修改默认权限",
+        "link": "#修改默认权限",
+        "children": []
+      }
+    ],
+    "path": "/OPsLearning/FirstMeetLinux/umask.html",
     "pathLocale": "/",
     "extraFields": []
   },
