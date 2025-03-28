@@ -115,8 +115,17 @@ export default defineUserConfig({
         },
 
         {
-          text:'Linux软件部署',
-          link:'/OPsLearning/FirstMeetLinux/deploy.md',
+          text: 'Linux文件系统',
+          link: '/OPsLearning/FirstMeetLinux/file.md',
+          collapsible: true,
+          children: [
+            {text: 'Linux的ext2文件系统', link: '/OPsLearning/FirstMeetLinux/ext2.md'}
+          ]
+        },
+
+        {
+          text: 'Linux软件部署',
+          link: '/OPsLearning/FirstMeetLinux/deploy.md',
           collapsible: true,
           children: [
             {text: '在CentOS上安装MySQL', link: '/OPsLearning/FirstMeetLinux/MySQLInCentOS'},
