@@ -181,6 +181,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "关于创建静态网站这件事",
+    "headers": [],
+    "path": "/my/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "平衡二叉树",
     "headers": [],
     "path": "/algorithmLearning/BalancedBinaryTree.html",
@@ -212,13 +219,6 @@ export const SEARCH_INDEX = [
     "title": "二叉树的最小深度",
     "headers": [],
     "path": "/algorithmLearning/TheMinDepthOfBinaryTree.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "关于创建静态网站这件事",
-    "headers": [],
-    "path": "/my/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -413,7 +413,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Linux的ext2文件系统",
+    "title": "Linux的文件系统",
     "headers": [
       {
         "level": 2,
@@ -491,7 +491,87 @@ export const SEARCH_INDEX = [
         "title": "目录树",
         "slug": "目录树",
         "link": "#目录树",
-        "children": []
+        "children": [
+          {
+            "level": 3,
+            "title": "目录",
+            "slug": "目录",
+            "link": "#目录",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "文件",
+            "slug": "文件",
+            "link": "#文件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "目录树读取",
+            "slug": "目录树读取",
+            "link": "#目录树读取",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "ext文件系统的文件存取和日志式文件系统",
+        "slug": "ext文件系统的文件存取和日志式文件系统",
+        "link": "#ext文件系统的文件存取和日志式文件系统",
+        "children": [
+          {
+            "level": 3,
+            "title": "新建行为",
+            "slug": "新建行为",
+            "link": "#新建行为",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "日志式文件系统",
+            "slug": "日志式文件系统",
+            "link": "#日志式文件系统",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "XFS文件系统简介",
+        "slug": "xfs文件系统简介",
+        "link": "#xfs文件系统简介",
+        "children": [
+          {
+            "level": 3,
+            "title": "数据区（data section）",
+            "slug": "数据区-data-section",
+            "link": "#数据区-data-section",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "文件登录活动区（log section）",
+            "slug": "文件登录活动区-log-section",
+            "link": "#文件登录活动区-log-section",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "实时运行区（realtime section）",
+            "slug": "实时运行区-realtime-section",
+            "link": "#实时运行区-realtime-section",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "xfs_info:查看xfs文件系统",
+            "slug": "xfs-info-查看xfs文件系统",
+            "link": "#xfs-info-查看xfs文件系统",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/OPsLearning/FirstMeetLinux/ext2.html",
@@ -1070,6 +1150,50 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/OPsLearning/FirstMeetLinux/root.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "文件系统的简单操作",
+    "headers": [
+      {
+        "level": 2,
+        "title": "磁盘与目录的容量",
+        "slug": "磁盘与目录的容量",
+        "link": "#磁盘与目录的容量",
+        "children": [
+          {
+            "level": 3,
+            "title": "df:列出文件系统的整体磁盘使用量",
+            "slug": "df-列出文件系统的整体磁盘使用量",
+            "link": "#df-列出文件系统的整体磁盘使用量",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "du:计算文件大小",
+            "slug": "du-计算文件大小",
+            "link": "#du-计算文件大小",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "ln:链接",
+            "slug": "ln-链接",
+            "link": "#ln-链接",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "软链接:Symbolic Link",
+            "slug": "软链接-symbolic-link",
+            "link": "#软链接-symbolic-link",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/OPsLearning/FirstMeetLinux/SimpleOperationOfFilesystem.html",
     "pathLocale": "/",
     "extraFields": []
   },

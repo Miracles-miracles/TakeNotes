@@ -1,4 +1,4 @@
-<template><div><h1 id="linux的ext2文件系统" tabindex="-1"><a class="header-anchor" href="#linux的ext2文件系统"><span>Linux的ext2文件系统</span></a></h1>
+<template><div><h1 id="linux的文件系统" tabindex="-1"><a class="header-anchor" href="#linux的文件系统"><span>Linux的文件系统</span></a></h1>
 <h2 id="前言" tabindex="-1"><a class="header-anchor" href="#前言"><span>前言</span></a></h2>
 <p>磁盘分区后需要格式化，这样操作系统才能使用这个文件系统。由于每个操作系统所设置的文件属性/权限并不相同，为了存放这些文件的数据，分区需要格式化。</p>
 <p>在传统的磁盘和文件系统中，一个分区就只能够被格式化成为一个文件系统，所以说，<strong>一个文件系统就是一个硬盘分区</strong>。有些新技术如LVM可以<strong>将一个分区格式化为多个文件系统</strong>，或者<strong>将多个分区合并称一个文件系统</strong>。</p>
@@ -116,6 +116,92 @@ ext2格式化就会区分多个“区块群组”，每个区块群组都有独�
 <p>CentOS7使用xfs文件系统，ext文件系统的命令要能成功那才是邪了。</p>
 </div>
 <h2 id="目录树" tabindex="-1"><a class="header-anchor" href="#目录树"><span>目录树</span></a></h2>
-</div></template>
+<h3 id="目录" tabindex="-1"><a class="header-anchor" href="#目录"><span>目录</span></a></h3>
+<p>当我们在Linux下的文件系统中建立一个目录的时候，文件系统会分配一个inode和至少一个区块给它。其中，inode中记录着有关该目录的权限和属性，并且记录分配到那块区块的号码。文件的区块记录的是文件中的数据信息，而目录的区块记录的则是目录下的文件名和该文件分配的inode号码。</p>
+<h4 id="ls-i-查看inode号码" tabindex="-1"><a class="header-anchor" href="#ls-i-查看inode号码"><span>ls -i:查看inode号码</span></a></h4>
+<p>使用<code v-pre>ls -i</code>命令可以查看目录内的文件占用的inode号码</p>
+<div class="hint-container note">
+<p class="hint-container-title">Note</p>
+<p>若是想单纯看目录本身的inode号码，可以使用<code v-pre>ls -di</code>，因为<code v-pre>-d</code>选项的意思是：仅展示目录本身而不是它的内容</p>
+<div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre v-pre><code><span class="line">[miracles@localhost ~]$ ls -i test</span>
+<span class="line">2376535 test1.txt</span>
+<span class="line">[miracles@localhost ~]$ ls -di test</span>
+<span class="line">848713 test</span>
+<span class="line"></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div>
+<h3 id="文件" tabindex="-1"><a class="header-anchor" href="#文件"><span>文件</span></a></h3>
+<p>当我们在ext系列文件系统下建立一个文件时，文件系统会分配一个inode和响应大小的区块数量给文件。<br>
+假设文件系统使用的是4K区块，我要建立一个100KB的文件，此时系统会分配一个inode和25个区块。不过呢，inode只有12个直接记录区，这显然是不够的，还需要一个区块实现间接记录。</p>
+<h3 id="目录树读取" tabindex="-1"><a class="header-anchor" href="#目录树读取"><span>目录树读取</span></a></h3>
+<p>inode本身不记录文件名，文件名记录在目录的区块中。<br>
+要读取某个文件时，首先经过目录的inode和区块，通过目录区块找到该文件的inode，最后才会读取文件区块中的数据。</p>
+<p>目录树是从根目录开始读取，系统可以通过挂载的信息找到挂载点的inode号码，此时就能得到根目录inode内容。现在以读取<code v-pre>/ect/passwd</code>为例说明：</p>
+<div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre v-pre><code><span class="line">[miracles@localhost /]$ ls -dil / /etc /etc/passwd</span>
+<span class="line">      64 dr-xr-xr-x.  17 root root  224 Feb 12 11:49 /</span>
+<span class="line">33554497 drwxr-xr-x. 143 root root 8192 Mar 31 22:22 /etc</span>
+<span class="line">35030797 -rw-r--r--.   1 root root 2369 Mar 21 20:05 /etc/passwd</span>
+<span class="line"></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol>
+<li>通过挂载点找到64号inode，且权限可以让我们读取内容。</li>
+<li>既得根目录<code v-pre>/</code>的inode，其中指向的区块中存储着目录下<code v-pre>etc/</code>目录的inode号码：33554497。</li>
+<li>读取33554497号inode得知用户权限，可以访问<code v-pre>etc/</code>区块内容。</li>
+<li>从<code v-pre>etc/</code>区块中得知<code v-pre>passwd</code>文件对应的inode号码为：35030797。</li>
+<li>读取35030797号inode得知用户权限可以读取<code v-pre>passwd</code>区块内容。</li>
+<li>最后读取区块数据。</li>
+</ol>
+<h2 id="ext文件系统的文件存取和日志式文件系统" tabindex="-1"><a class="header-anchor" href="#ext文件系统的文件存取和日志式文件系统"><span>ext文件系统的文件存取和日志式文件系统</span></a></h2>
+<h3 id="新建行为" tabindex="-1"><a class="header-anchor" href="#新建行为"><span>新建行为</span></a></h3>
+<p>区块对照表/inode对照表中存有区块和inode的状态信息，即哪些已经被使用，哪些没有被使用。当新建一个文件或目录时文件系统行为如下：</p>
+<ol>
+<li>首先确认使用者权限</li>
+<li>查看inode bitmap中是否有未使用的inode，将属性/权限写入。</li>
+<li>查看block bitmap中是否有未使用的block，将文件数据写入，更新inode中指向block的数据。</li>
+<li>数据更新至对照表和超级区块中。</li>
+</ol>
+<div class="hint-container note">
+<p class="hint-container-title">Note</p>
+<p>假设只有写入数据完成了，但是由于特殊情况同步数据没有完成怎么办？也就是说，inode和block已被占用，但是bitmap中却没有记载，还是显示未占用。这种矛盾情况就由下面的日志式文件系统来解决。</p>
+</div>
+<h3 id="日志式文件系统" tabindex="-1"><a class="header-anchor" href="#日志式文件系统"><span>日志式文件系统</span></a></h3>
+<p>在文件系统中划分出一个区块，用来专门记录或写入文件修改的步骤：</p>
+<ol>
+<li>当系统要写入一个文件时，会在日志记录区块中准备要写入的信息。</li>
+<li>开始写入文件的权限和数据，并更新对照表。</li>
+<li>在日志记录区块中完成对该文件的记录</li>
+</ol>
+<h2 id="xfs文件系统简介" tabindex="-1"><a class="header-anchor" href="#xfs文件系统简介"><span>XFS文件系统简介</span></a></h2>
+<p>xfs文件系统在数据分布上主要分为以三个部分：数据区、文件系统登录活动区、实时运行区。</p>
+<h3 id="数据区-data-section" tabindex="-1"><a class="header-anchor" href="#数据区-data-section"><span>数据区（data section）</span></a></h3>
+<p>与ext文件系统的区块群组类似，只不过inode和区块是动态生成，并非在格式化时就固定的。</p>
+<h3 id="文件登录活动区-log-section" tabindex="-1"><a class="header-anchor" href="#文件登录活动区-log-section"><span>文件登录活动区（log section）</span></a></h3>
+<p>用以记录文件系统的变化，类似日志区块，甚至可以指定外部磁盘作为xfs系统的日志区块。</p>
+<h3 id="实时运行区-realtime-section" tabindex="-1"><a class="header-anchor" href="#实时运行区-realtime-section"><span>实时运行区（realtime section）</span></a></h3>
+<p>当文件被创建时，首先会被系统写入该区块的一个或多个extent中，然后再写入数据区的inode和block中。该区域大小在格式化时就被指定。</p>
+<h3 id="xfs-info-查看xfs文件系统" tabindex="-1"><a class="header-anchor" href="#xfs-info-查看xfs文件系统"><span>xfs_info:查看xfs文件系统</span></a></h3>
+<p>首先使用命令<code v-pre>df -T</code>查看文件系统类型，毕竟这个只能查看xfs文件系统。</p>
+<div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre v-pre><code><span class="line">[miracles@localhost ~]$ df -T</span>
+<span class="line">Filesystem     Type     1K-blocks    Used Available Use% Mounted on</span>
+<span class="line">/dev/sda3      xfs       39517336 6015436  33501900  16% /</span>
+<span class="line">devtmpfs       devtmpfs    482152       0    482152   0% /dev</span>
+<span class="line">tmpfs          tmpfs       497944       0    497944   0% /dev/shm</span>
+<span class="line">tmpfs          tmpfs       497944    8716    489228   2% /run</span>
+<span class="line">tmpfs          tmpfs       497944       0    497944   0% /sys/fs/cgroup</span>
+<span class="line">/dev/sda1      xfs         303780  149528    154252  50% /boot</span>
+<span class="line">tmpfs          tmpfs        99592       4     99588   1% /run/user/42</span>
+<span class="line">tmpfs          tmpfs        99592      24     99568   1% /run/user/1000</span>
+<span class="line"></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>可以看到<code v-pre>/dev/sda1</code>是xfs类型的文件系统，接下来使用<code v-pre>xfs_info</code>来查看它的数据。</p>
+<div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre v-pre><code><span class="line">[miracles@localhost ~]$ xfs_info /dev/sda1</span>
+<span class="line">meta-data=/dev/sda1              isize=512    agcount=4, agsize=19200 blks</span>
+<span class="line">         =                       sectsz=512   attr=2, projid32bit=1</span>
+<span class="line">         =                       crc=1        finobt=0 spinodes=0</span>
+<span class="line">data     =                       bsize=4096   blocks=76800, imaxpct=25</span>
+<span class="line">         =                       sunit=0      swidth=0 blks</span>
+<span class="line">naming   =version 2              bsize=4096   ascii-ci=0 ftype=1</span>
+<span class="line">log      =internal               bsize=4096   blocks=855, version=2</span>
+<span class="line">         =                       sectsz=512   sunit=0 blks, lazy-count=1</span>
+<span class="line">realtime =none                   extsz=4096   blocks=0, rtextents=0</span>
+<span class="line"></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
 
 

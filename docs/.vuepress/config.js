@@ -119,7 +119,8 @@ export default defineUserConfig({
           link: '/OPsLearning/FirstMeetLinux/file.md',
           collapsible: true,
           children: [
-            {text: 'Linux的ext2文件系统', link: '/OPsLearning/FirstMeetLinux/ext2.md'}
+            {text: 'Linux的文件系统', link: '/OPsLearning/FirstMeetLinux/ext2.md'},
+            {text: '文件系统的简单操作', link: '/OPsLearning/FirstMeetLinux/SimpleOperationOfFilesystem.md'}
           ]
         },
 
