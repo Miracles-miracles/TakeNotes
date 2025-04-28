@@ -1,0 +1,3 @@
+import comp from "D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/root.html.vue"
+const data = JSON.parse("{\"path\":\"/Sundry/FirstMeetLinux/root.html\",\"title\":\"认识root用户\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"su命令:切换账户\",\"slug\":\"su命令-切换账户\",\"link\":\"#su命令-切换账户\",\"children\":[]},{\"level\":2,\"title\":\"sudo命令:临时root\",\"slug\":\"sudo命令-临时root\",\"link\":\"#sudo命令-临时root\",\"children\":[{\"level\":3,\"title\":\"为普通用户配置sudo认证\",\"slug\":\"为普通用户配置sudo认证\",\"link\":\"#为普通用户配置sudo认证\",\"children\":[]}]}],\"git\":{},\"filePathRelative\":\"Sundry/FirstMeetLinux/root.md\"}")
+export { comp, data }

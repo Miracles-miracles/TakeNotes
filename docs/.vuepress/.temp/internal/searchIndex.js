@@ -1,5 +1,47 @@
 export const SEARCH_INDEX = [
   {
+    "title": "平衡二叉树",
+    "headers": [],
+    "path": "/algorithmLearning/BalancedBinaryTree.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "二叉搜索树",
+    "headers": [],
+    "path": "/algorithmLearning/BinarySearchTree.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "迎难而上",
+    "headers": [],
+    "path": "/algorithmLearning/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "二叉树的最大深度",
+    "headers": [],
+    "path": "/algorithmLearning/TheMaxDepthOfBinaryTree.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "二叉树的最小深度",
+    "headers": [],
+    "path": "/algorithmLearning/TheMinDepthOfBinaryTree.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "关于创建静态网站这件事",
+    "headers": [],
+    "path": "/my/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "创建Git仓库",
     "headers": [
       {
@@ -181,48 +223,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "关于创建静态网站这件事",
-    "headers": [],
-    "path": "/my/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "平衡二叉树",
-    "headers": [],
-    "path": "/algorithmLearning/BalancedBinaryTree.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "二叉搜索树",
-    "headers": [],
-    "path": "/algorithmLearning/BinarySearchTree.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "迎难而上",
-    "headers": [],
-    "path": "/algorithmLearning/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "二叉树的最大深度",
-    "headers": [],
-    "path": "/algorithmLearning/TheMaxDepthOfBinaryTree.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "二叉树的最小深度",
-    "headers": [],
-    "path": "/algorithmLearning/TheMinDepthOfBinaryTree.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "cd-pwd:目录切换",
     "headers": [
       {
@@ -240,7 +240,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/cd-pwd-Command.html",
+    "path": "/Sundry/FirstMeetLinux/cd-pwd-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -262,7 +262,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/chattr-lsattr.html",
+    "path": "/Sundry/FirstMeetLinux/chattr-lsattr.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -292,7 +292,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/chmod-chown-Command.html",
+    "path": "/Sundry/FirstMeetLinux/chmod-chown-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -329,21 +329,21 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/date.html",
+    "path": "/Sundry/FirstMeetLinux/date.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "Linux软件部署",
     "headers": [],
-    "path": "/OPsLearning/FirstMeetLinux/deploy.html",
+    "path": "/Sundry/FirstMeetLinux/deploy.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "从Linux命令入手，由此开启Linux世界的大门吧。",
     "headers": [],
-    "path": "/OPsLearning/FirstMeetLinux/easyLinux.html",
+    "path": "/Sundry/FirstMeetLinux/easyLinux.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -372,7 +372,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/echo-tail-Command.html",
+    "path": "/Sundry/FirstMeetLinux/echo-tail-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -408,7 +408,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/env-var.html",
+    "path": "/Sundry/FirstMeetLinux/env-var.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -574,14 +574,14 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/ext2.html",
+    "path": "/Sundry/FirstMeetLinux/ext2.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "Linux文件系统",
     "headers": [],
-    "path": "/OPsLearning/FirstMeetLinux/file.html",
+    "path": "/Sundry/FirstMeetLinux/file.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -638,7 +638,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/FileOperated-Command.html",
+    "path": "/Sundry/FirstMeetLinux/FileOperated-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -667,7 +667,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/grep-wc-Command.html",
+    "path": "/Sundry/FirstMeetLinux/grep-wc-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -725,7 +725,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/hoststate.html",
+    "path": "/Sundry/FirstMeetLinux/hoststate.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -747,7 +747,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/install.html",
+    "path": "/Sundry/FirstMeetLinux/install.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -806,7 +806,7 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/ip-hostname.html",
+    "path": "/Sundry/FirstMeetLinux/ip-hostname.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -835,7 +835,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/ls-Command.html",
+    "path": "/Sundry/FirstMeetLinux/ls-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -850,7 +850,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/mkdir-Command.html",
+    "path": "/Sundry/FirstMeetLinux/mkdir-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -930,7 +930,7 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/MySQLInCentOS.html",
+    "path": "/Sundry/FirstMeetLinux/MySQLInCentOS.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -995,7 +995,7 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/MySQLInUbuntu.html",
+    "path": "/Sundry/FirstMeetLinux/MySQLInUbuntu.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1017,7 +1017,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/path.html",
+    "path": "/Sundry/FirstMeetLinux/path.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1046,7 +1046,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/ping-wget-Command.html",
+    "path": "/Sundry/FirstMeetLinux/ping-wget-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1068,7 +1068,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/port.html",
+    "path": "/Sundry/FirstMeetLinux/port.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1090,7 +1090,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/process.html",
+    "path": "/Sundry/FirstMeetLinux/process.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1119,7 +1119,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/right.html",
+    "path": "/Sundry/FirstMeetLinux/right.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1149,7 +1149,7 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/root.html",
+    "path": "/Sundry/FirstMeetLinux/root.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1182,25 +1182,33 @@ export const SEARCH_INDEX = [
             "slug": "ln-链接",
             "link": "#ln-链接",
             "children": []
-          },
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "磁盘的分区、格式化、检验与挂载",
+        "slug": "磁盘的分区、格式化、检验与挂载",
+        "link": "#磁盘的分区、格式化、检验与挂载",
+        "children": [
           {
             "level": 3,
-            "title": "软链接:Symbolic Link",
-            "slug": "软链接-symbolic-link",
-            "link": "#软链接-symbolic-link",
+            "title": "检查磁盘分区状态",
+            "slug": "检查磁盘分区状态",
+            "link": "#检查磁盘分区状态",
             "children": []
           }
         ]
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/SimpleOperationOfFilesystem.html",
+    "path": "/Sundry/FirstMeetLinux/SimpleOperationOfFilesystem.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "哦吼，欢迎来到对Linux系统的基础设置部分。",
     "headers": [],
-    "path": "/OPsLearning/FirstMeetLinux/skill.html",
+    "path": "/Sundry/FirstMeetLinux/skill.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1215,14 +1223,14 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/softlink.html",
+    "path": "/Sundry/FirstMeetLinux/softlink.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "systemctl命令:控制",
     "headers": [],
-    "path": "/OPsLearning/FirstMeetLinux/systemctl-Command.html",
+    "path": "/Sundry/FirstMeetLinux/systemctl-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1272,7 +1280,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/tips.html",
+    "path": "/Sundry/FirstMeetLinux/tips.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1294,7 +1302,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/umask.html",
+    "path": "/Sundry/FirstMeetLinux/umask.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1316,7 +1324,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/upload-download.html",
+    "path": "/Sundry/FirstMeetLinux/upload-download.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1396,14 +1404,14 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/user-usergroup.html",
+    "path": "/Sundry/FirstMeetLinux/user-usergroup.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "深入用户与权限，一起掌握Linux系统的钥匙吧。",
     "headers": [],
-    "path": "/OPsLearning/FirstMeetLinux/Users-Permissions.html",
+    "path": "/Sundry/FirstMeetLinux/Users-Permissions.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1433,7 +1441,7 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/vim-Command.html",
+    "path": "/Sundry/FirstMeetLinux/vim-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1477,7 +1485,7 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/which-find-Command.html",
+    "path": "/Sundry/FirstMeetLinux/which-find-Command.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1513,7 +1521,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/OPsLearning/FirstMeetLinux/zip-unzip.html",
+    "path": "/Sundry/FirstMeetLinux/zip-unzip.html",
     "pathLocale": "/",
     "extraFields": []
   },
