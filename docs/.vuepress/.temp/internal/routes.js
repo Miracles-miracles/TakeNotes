@@ -2,18 +2,18 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
+  ["/my/", { loader: () => import(/* webpackChunkName: "my_index.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/my/index.html.js"), meta: {"title":"关于创建静态网站这件事"} }],
   ["/algorithmLearning/BalancedBinaryTree.html", { loader: () => import(/* webpackChunkName: "algorithmLearning_BalancedBinaryTree.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/algorithmLearning/BalancedBinaryTree.html.js"), meta: {"title":"平衡二叉树"} }],
   ["/algorithmLearning/BinarySearchTree.html", { loader: () => import(/* webpackChunkName: "algorithmLearning_BinarySearchTree.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/algorithmLearning/BinarySearchTree.html.js"), meta: {"title":"二叉搜索树"} }],
   ["/algorithmLearning/", { loader: () => import(/* webpackChunkName: "algorithmLearning_index.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/algorithmLearning/index.html.js"), meta: {"title":"迎难而上"} }],
   ["/algorithmLearning/TheMaxDepthOfBinaryTree.html", { loader: () => import(/* webpackChunkName: "algorithmLearning_TheMaxDepthOfBinaryTree.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/algorithmLearning/TheMaxDepthOfBinaryTree.html.js"), meta: {"title":"二叉树的最大深度"} }],
   ["/algorithmLearning/TheMinDepthOfBinaryTree.html", { loader: () => import(/* webpackChunkName: "algorithmLearning_TheMinDepthOfBinaryTree.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/algorithmLearning/TheMinDepthOfBinaryTree.html.js"), meta: {"title":"二叉树的最小深度"} }],
-  ["/my/", { loader: () => import(/* webpackChunkName: "my_index.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/my/index.html.js"), meta: {"title":"关于创建静态网站这件事"} }],
+  ["/about/AboutWeb/", { loader: () => import(/* webpackChunkName: "about_AboutWeb_index.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/about/AboutWeb/index.html.js"), meta: {"title":"关于建站的问题"} }],
+  ["/about/AboutWeb/StaticWeb.html", { loader: () => import(/* webpackChunkName: "about_AboutWeb_StaticWeb.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/about/AboutWeb/StaticWeb.html.js"), meta: {"title":"生成静态网站"} }],
   ["/about/AboutGit/CreateRepo.html", { loader: () => import(/* webpackChunkName: "about_AboutGit_CreateRepo.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/about/AboutGit/CreateRepo.html.js"), meta: {"title":"创建Git仓库"} }],
   ["/about/AboutGit/FirstMeetGit.html", { loader: () => import(/* webpackChunkName: "about_AboutGit_FirstMeetGit.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/about/AboutGit/FirstMeetGit.html.js"), meta: {"title":"初次使用Git"} }],
   ["/about/AboutGit/PushAndCommit.html", { loader: () => import(/* webpackChunkName: "about_AboutGit_PushAndCommit.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/about/AboutGit/PushAndCommit.html.js"), meta: {"title":"添加并提交文件"} }],
   ["/about/AboutGit/", { loader: () => import(/* webpackChunkName: "about_AboutGit_index.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/about/AboutGit/index.html.js"), meta: {"title":"关于使用Git的问题"} }],
-  ["/about/AboutWeb/", { loader: () => import(/* webpackChunkName: "about_AboutWeb_index.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/about/AboutWeb/index.html.js"), meta: {"title":"关于建站的问题"} }],
-  ["/about/AboutWeb/StaticWeb.html", { loader: () => import(/* webpackChunkName: "about_AboutWeb_StaticWeb.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/about/AboutWeb/StaticWeb.html.js"), meta: {"title":"生成静态网站"} }],
   ["/Sundry/FirstMeetLinux/cd-pwd-Command.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_cd-pwd-Command.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/cd-pwd-Command.html.js"), meta: {"title":"cd-pwd:目录切换"} }],
   ["/Sundry/FirstMeetLinux/chattr-lsattr.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_chattr-lsattr.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/chattr-lsattr.html.js"), meta: {"title":"chattr-lsattr:文件隐藏属性"} }],
   ["/Sundry/FirstMeetLinux/chmod-chown-Command.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_chmod-chown-Command.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/chmod-chown-Command.html.js"), meta: {"title":"chmod-chown:修改权限与所属"} }],
@@ -25,6 +25,7 @@ export const routes = Object.fromEntries([
   ["/Sundry/FirstMeetLinux/ext2.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_ext2.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/ext2.html.js"), meta: {"title":"Linux的文件系统"} }],
   ["/Sundry/FirstMeetLinux/file.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_file.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/file.html.js"), meta: {"title":"Linux文件系统"} }],
   ["/Sundry/FirstMeetLinux/FileOperated-Command.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_FileOperated-Command.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/FileOperated-Command.html.js"), meta: {"title":"文件操作"} }],
+  ["/Sundry/FirstMeetLinux/FirstShellScript.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_FirstShellScript.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/FirstShellScript.html.js"), meta: {"title":"第一个shell脚本"} }],
   ["/Sundry/FirstMeetLinux/grep-wc-Command.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_grep-wc-Command.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/grep-wc-Command.html.js"), meta: {"title":"grep、wc与管道符"} }],
   ["/Sundry/FirstMeetLinux/hoststate.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_hoststate.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/hoststate.html.js"), meta: {"title":"主机状态"} }],
   ["/Sundry/FirstMeetLinux/install.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_install.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/install.html.js"), meta: {"title":"软件安装"} }],
@@ -39,6 +40,8 @@ export const routes = Object.fromEntries([
   ["/Sundry/FirstMeetLinux/process.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_process.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/process.html.js"), meta: {"title":"进程管理"} }],
   ["/Sundry/FirstMeetLinux/right.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_right.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/right.html.js"), meta: {"title":"权限信息"} }],
   ["/Sundry/FirstMeetLinux/root.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_root.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/root.html.js"), meta: {"title":"认识root用户"} }],
+  ["/Sundry/FirstMeetLinux/shell.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_shell.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/shell.html.js"), meta: {"title":"Sehll"} }],
+  ["/Sundry/FirstMeetLinux/ShellVariables.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_ShellVariables.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/ShellVariables.html.js"), meta: {"title":"Shell变量"} }],
   ["/Sundry/FirstMeetLinux/SimpleOperationOfFilesystem.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_SimpleOperationOfFilesystem.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/SimpleOperationOfFilesystem.html.js"), meta: {"title":"文件系统的简单操作"} }],
   ["/Sundry/FirstMeetLinux/skill.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_skill.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/skill.html.js"), meta: {"title":"哦吼，欢迎来到对Linux系统的基础设置部分。"} }],
   ["/Sundry/FirstMeetLinux/softlink.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_softlink.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/softlink.html.js"), meta: {"title":"软链接"} }],
@@ -53,3 +56,20 @@ export const routes = Object.fromEntries([
   ["/Sundry/FirstMeetLinux/zip-unzip.html", { loader: () => import(/* webpackChunkName: "Sundry_FirstMeetLinux_zip-unzip.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/Sundry/FirstMeetLinux/zip-unzip.html.js"), meta: {"title":"压缩与解压"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"D:/Coding Time/TakeNotes/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateRoutes) {
+    __VUE_HMR_RUNTIME__.updateRoutes(routes)
+  }
+  if (__VUE_HMR_RUNTIME__.updateRedirects) {
+    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ routes, redirects }) => {
+    __VUE_HMR_RUNTIME__.updateRoutes(routes)
+    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
+  })
+}

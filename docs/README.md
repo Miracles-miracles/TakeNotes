@@ -5,13 +5,13 @@ heroText: Take Notes
 tagline: Just Do It
 actions: 
   - text: 开始吧
-    link: /about/
+    link: /my/
     type: primary
-  - text: 看看Java
-    link: /javaLearning/practice/README.md
+  - text: 看看算法
+    link: /algorithmLearning/README.md
     type: secondary
   - text: 看看Linux
-    link: /linuxLearning/
+    link: /Sundry/FirstMeetLinux/easyLinux.md
     type: secondary
 
 features:

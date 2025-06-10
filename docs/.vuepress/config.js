@@ -129,13 +129,31 @@ export default defineUserConfig({
           link: '/Sundry/FirstMeetLinux/deploy.md',
           collapsible: true,
           children: [
-            {text: '在CentOS上安装MySQL', link: '/Sundry/FirstMeetLinux/MySQLInCentOS'},
-            {text: '在Ubuntu上安装MySQL', link: '/Sundry/FirstMeetLinux/MySQLInUbuntu'},
+            {text: '在CentOS上安装MySQL', link: '/Sundry/FirstMeetLinux/MySQLInCentOS.md'},
+            {text: '在Ubuntu上安装MySQL', link: '/Sundry/FirstMeetLinux/MySQLInUbuntu.md'},
           ]
-        }
+        },
+
+        {
+          text: 'Shell',
+          link: '/Sundry/FirstMeetLinux/shell.md',
+          collapsible: true,
+          children: [
+            {text: '第一个shell脚本', link: '/Sundry/FirstMeetLinux/FirstShellScript.md'},
+            {text: 'Shell变量', link: '/Sundry/FirstMeetLinux/ShellVariables.md'},
+          ]
+        },
       ],
 
       '/algorithmLearning/': [
+        {
+          text: '链表',
+          link: '/algorithmLearning/LinkedList/',
+          collapsible: true,
+          children: [
+            {},
+          ]
+        },
         {text: '二叉搜索树', link: '/algorithmLearning/BinarySearchTree.md'},
         {text: '平衡二叉树', link: '/algorithmLearning/BalancedBinaryTree.md'},
         {text: '二叉树的最小深度', link: '/algorithmLearning/TheMinDepthOfBinaryTree.md'},

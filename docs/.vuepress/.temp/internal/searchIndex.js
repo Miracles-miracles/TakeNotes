@@ -1,5 +1,12 @@
 export const SEARCH_INDEX = [
   {
+    "title": "关于创建静态网站这件事",
+    "headers": [],
+    "path": "/my/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "平衡二叉树",
     "headers": [],
     "path": "/algorithmLearning/BalancedBinaryTree.html",
@@ -35,9 +42,81 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "关于创建静态网站这件事",
+    "title": "关于建站的问题",
     "headers": [],
-    "path": "/my/",
+    "path": "/about/AboutWeb/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "生成静态网站",
+    "headers": [
+      {
+        "level": 2,
+        "title": "VuePress:Vue 驱动的静态网站生成器",
+        "slug": "vuepress-vue-驱动的静态网站生成器",
+        "link": "#vuepress-vue-驱动的静态网站生成器",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "基本流程",
+        "slug": "基本流程",
+        "link": "#基本流程",
+        "children": [
+          {
+            "level": 3,
+            "title": "创建项目",
+            "slug": "创建项目",
+            "link": "#创建项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "接下来跟着官网做",
+            "slug": "接下来跟着官网做",
+            "link": "#接下来跟着官网做",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "配置首页",
+            "slug": "配置首页",
+            "link": "#配置首页",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "配置导航栏",
+            "slug": "配置导航栏",
+            "link": "#配置导航栏",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "配置侧边栏",
+            "slug": "配置侧边栏",
+            "link": "#配置侧边栏",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "部署到GitHub Pages",
+            "slug": "部署到github-pages",
+            "link": "#部署到github-pages",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "本地代码上传至GitHub",
+            "slug": "本地代码上传至github",
+            "link": "#本地代码上传至github",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/about/AboutWeb/StaticWeb.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -140,85 +219,6 @@ export const SEARCH_INDEX = [
     "title": "关于使用Git的问题",
     "headers": [],
     "path": "/about/AboutGit/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "关于建站的问题",
-    "headers": [],
-    "path": "/about/AboutWeb/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "生成静态网站",
-    "headers": [
-      {
-        "level": 2,
-        "title": "VuePress:Vue 驱动的静态网站生成器",
-        "slug": "vuepress-vue-驱动的静态网站生成器",
-        "link": "#vuepress-vue-驱动的静态网站生成器",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "基本流程",
-        "slug": "基本流程",
-        "link": "#基本流程",
-        "children": [
-          {
-            "level": 3,
-            "title": "创建项目",
-            "slug": "创建项目",
-            "link": "#创建项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "接下来跟着官网做",
-            "slug": "接下来跟着官网做",
-            "link": "#接下来跟着官网做",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "配置首页",
-            "slug": "配置首页",
-            "link": "#配置首页",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "配置导航栏",
-            "slug": "配置导航栏",
-            "link": "#配置导航栏",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "配置侧边栏",
-            "slug": "配置侧边栏",
-            "link": "#配置侧边栏",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "部署到GitHub Pages",
-            "slug": "部署到github-pages",
-            "link": "#部署到github-pages",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "本地代码上传至GitHub",
-            "slug": "本地代码上传至github",
-            "link": "#本地代码上传至github",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/about/AboutWeb/StaticWeb.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -639,6 +639,13 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/Sundry/FirstMeetLinux/FileOperated-Command.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第一个shell脚本",
+    "headers": [],
+    "path": "/Sundry/FirstMeetLinux/FirstShellScript.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1154,6 +1161,85 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Sehll",
+    "headers": [],
+    "path": "/Sundry/FirstMeetLinux/shell.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Shell变量",
+    "headers": [
+      {
+        "level": 2,
+        "title": "定义shell变量",
+        "slug": "定义shell变量",
+        "link": "#定义shell变量",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用shell变量",
+        "slug": "使用shell变量",
+        "link": "#使用shell变量",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "只读变量",
+        "slug": "只读变量",
+        "link": "#只读变量",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "删除变量",
+        "slug": "删除变量",
+        "link": "#删除变量",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "变量类型",
+        "slug": "变量类型",
+        "link": "#变量类型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "shell字符串",
+        "slug": "shell字符串",
+        "link": "#shell字符串",
+        "children": [
+          {
+            "level": 3,
+            "title": "拼接字符串",
+            "slug": "拼接字符串",
+            "link": "#拼接字符串",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "获取字符串长度",
+            "slug": "获取字符串长度",
+            "link": "#获取字符串长度",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "提取子字符串",
+            "slug": "提取子字符串",
+            "link": "#提取子字符串",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/Sundry/FirstMeetLinux/ShellVariables.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "文件系统的简单操作",
     "headers": [
       {
@@ -1193,9 +1279,44 @@ export const SEARCH_INDEX = [
         "children": [
           {
             "level": 3,
-            "title": "检查磁盘分区状态",
-            "slug": "检查磁盘分区状态",
-            "link": "#检查磁盘分区状态",
+            "title": "检查磁盘分区状态:lsblk/blkid/parted",
+            "slug": "检查磁盘分区状态-lsblk-blkid-parted",
+            "link": "#检查磁盘分区状态-lsblk-blkid-parted",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "磁盘分区:gdisk/fdisk",
+            "slug": "磁盘分区-gdisk-fdisk",
+            "link": "#磁盘分区-gdisk-fdisk",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "磁盘格式化:mkfs.xfs/mkfs.ext4",
+            "slug": "磁盘格式化-mkfs-xfs-mkfs-ext4",
+            "link": "#磁盘格式化-mkfs-xfs-mkfs-ext4",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "文件系统检验:xfs_repair/fsck.ext4",
+            "slug": "文件系统检验-xfs-repair-fsck-ext4",
+            "link": "#文件系统检验-xfs-repair-fsck-ext4",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "文件系统的挂载与卸载",
+            "slug": "文件系统的挂载与卸载",
+            "link": "#文件系统的挂载与卸载",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "设置开机挂载:/etc/fstab及/etc/mtab",
+            "slug": "设置开机挂载-etc-fstab及-etc-mtab",
+            "link": "#设置开机挂载-etc-fstab及-etc-mtab",
             "children": []
           }
         ]
@@ -1533,3 +1654,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}
